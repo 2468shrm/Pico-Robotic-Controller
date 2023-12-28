@@ -1,0 +1,3047 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/smcmahon/FRC/sandbox/eisd-robotics/Pico Robotic Controller 4 I2C v5 4 Layer/Pico Robotic Controller/Pico Robotic Controller.kicad_sch</source>
+    <date/>
+    <tool>Eeschema (6.0.8-1)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Pico Robotic Controller.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C14860</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C14860"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>645e92e2-a754-4372-aa35-5fec2635c419</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>470u</value>
+      <footprint>Appreciate:CAPAE830X1050N</footprint>
+      <fields>
+        <field name="LCSC">C340767</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="LCSC" value="C340767"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5547a31b-b73f-421f-a507-2a6a3d7d137d</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C24497</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C24497"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>476b978b-6216-497a-842e-b05fe11240f1</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C14860</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C14860"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c485fbb9-f947-4abd-9be0-86e6ca60a7ea</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C24497</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C24497"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5f7deef5-3dcf-4964-be37-767528f70f7a</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C24497</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C24497"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b0ce06a2-b7c4-4ce1-8391-c0b9abc16660</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C24497</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C24497"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>32b2e827-f45f-4433-94e5-dec7afacae03</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C24497</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C24497"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7dede407-c662-49c4-8076-2a94e9cfa896</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C24497</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C24497"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>db7f0bab-077d-472e-b1f0-fb0e580b08f8</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C24497</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C24497"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9eb556fc-bc15-4131-93eb-57791867bba3</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C24497</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C24497"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>67ca42db-1f01-43c3-9138-b40862d8543c</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>470u</value>
+      <footprint>Appreciate:CAPAE830X1050N</footprint>
+      <fields>
+        <field name="LCSC">C340767</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="LCSC" value="C340767"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e4a8412a-ff57-446f-895a-9033f363d820</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C24497</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C24497"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d3293f97-3e74-4b7d-9517-b382932e5048</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C24497</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C24497"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9fac82a6-2365-4b72-ba62-773944a3182a</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C24497</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C24497"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a45b8d85-a827-41f3-8ee3-7637021563c6</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C24497</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C24497"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>de939bbd-a087-40f5-b2ed-f7c2b43b7d86</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C24497</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C24497"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4d08cd2b-bfb0-4bc1-8a15-d422bf65d8bf</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C24497</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C24497"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>559b9982-c68d-4c62-9fb4-5abedf3e245f</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C24497</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C24497"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bd78f1ee-b024-4fb7-ac4d-94cfaae7170b</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C24497</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C24497"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b2c6136-7c87-48af-be52-87077d105ab4</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C24497</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C24497"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c0a15e8e-8cc8-4a22-89f2-427ff53275bc</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C24497</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C24497"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1505ca77-3971-4121-bf75-d2ebea65bb23</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>UPR20e3</value>
+      <footprint>Appreciate:DO-216</footprint>
+      <libsource lib="Appreciate" part="UPR20e3" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>be70c9cb-4951-4d40-b030-f890cb89d7f7</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>PESD1CAN-UX</value>
+      <footprint>Appreciate:PESD1CANUX</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/916/PESD1CAN_U-2938423.pdf</datasheet>
+      <fields>
+        <field name="Datasheet_1">https://assets.nexperia.com/documents/data-sheet/PESD1CAN-U.pdf</field>
+        <field name="Footprint_1">PESD1CANUX</field>
+        <field name="Height">1.1</field>
+        <field name="LCSC">C907839</field>
+        <field name="Manufacturer_Name">Nexperia</field>
+        <field name="Manufacturer_Part_Number">PESD1CAN-UX</field>
+        <field name="Mouser Part Number">771-PESD1CANUX</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Nexperia/PESD1CAN-UX?qs=fi7yB2oewZmfG%252BI%252BwWS45Q%3D%3D</field>
+      </fields>
+      <libsource lib="Appreciate" part="PESD1CAN-UX" description="NXP PESD1CAN, Dual Bi-Directional TVS Diode, 3-Pin SOT-23"/>
+      <property name="Height" value="1.1"/>
+      <property name="Mouser Part Number" value="771-PESD1CANUX"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD1CAN-UX?qs=fi7yB2oewZmfG%252BI%252BwWS45Q%3D%3D"/>
+      <property name="Manufacturer_Name" value="Nexperia"/>
+      <property name="Manufacturer_Part_Number" value="PESD1CAN-UX"/>
+      <property name="Datasheet_1" value="https://assets.nexperia.com/documents/data-sheet/PESD1CAN-U.pdf"/>
+      <property name="LCSC" value="C907839"/>
+      <property name="Footprint_1" value="PESD1CANUX"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bd6605c3-1c9b-44d8-a742-cbe4a196effa</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2761795</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <property name="LCSC" value="C2761795"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2a1ccb12-1a6f-43aa-a260-fa26cdad9366</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>PESD1CAN-UX</value>
+      <footprint>Appreciate:PESD1CANUX</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/916/PESD1CAN_U-2938423.pdf</datasheet>
+      <fields>
+        <field name="Datasheet_1">https://assets.nexperia.com/documents/data-sheet/PESD1CAN-U.pdf</field>
+        <field name="Footprint_1">PESD1CANUX</field>
+        <field name="Height">1.1</field>
+        <field name="LCSC">C907839</field>
+        <field name="Manufacturer_Name">Nexperia</field>
+        <field name="Manufacturer_Part_Number">PESD1CAN-UX</field>
+        <field name="Mouser Part Number">771-PESD1CANUX</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Nexperia/PESD1CAN-UX?qs=fi7yB2oewZmfG%252BI%252BwWS45Q%3D%3D</field>
+      </fields>
+      <libsource lib="Appreciate" part="PESD1CAN-UX" description="NXP PESD1CAN, Dual Bi-Directional TVS Diode, 3-Pin SOT-23"/>
+      <property name="Height" value="1.1"/>
+      <property name="Mouser Part Number" value="771-PESD1CANUX"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD1CAN-UX?qs=fi7yB2oewZmfG%252BI%252BwWS45Q%3D%3D"/>
+      <property name="Manufacturer_Name" value="Nexperia"/>
+      <property name="Manufacturer_Part_Number" value="PESD1CAN-UX"/>
+      <property name="Datasheet_1" value="https://assets.nexperia.com/documents/data-sheet/PESD1CAN-U.pdf"/>
+      <property name="LCSC" value="C907839"/>
+      <property name="Footprint_1" value="PESD1CANUX"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ebe98e9b-1f90-4bf2-83f2-8f6a8cee3206</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>PESD1CAN-UX</value>
+      <footprint>Appreciate:PESD1CANUX</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/916/PESD1CAN_U-2938423.pdf</datasheet>
+      <fields>
+        <field name="Datasheet_1">https://assets.nexperia.com/documents/data-sheet/PESD1CAN-U.pdf</field>
+        <field name="Footprint_1">PESD1CANUX</field>
+        <field name="Height">1.1</field>
+        <field name="LCSC">C907839</field>
+        <field name="Manufacturer_Name">Nexperia</field>
+        <field name="Manufacturer_Part_Number">PESD1CAN-UX</field>
+        <field name="Mouser Part Number">771-PESD1CANUX</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Nexperia/PESD1CAN-UX?qs=fi7yB2oewZmfG%252BI%252BwWS45Q%3D%3D</field>
+      </fields>
+      <libsource lib="Appreciate" part="PESD1CAN-UX" description="NXP PESD1CAN, Dual Bi-Directional TVS Diode, 3-Pin SOT-23"/>
+      <property name="Height" value="1.1"/>
+      <property name="Mouser Part Number" value="771-PESD1CANUX"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD1CAN-UX?qs=fi7yB2oewZmfG%252BI%252BwWS45Q%3D%3D"/>
+      <property name="Manufacturer_Name" value="Nexperia"/>
+      <property name="Manufacturer_Part_Number" value="PESD1CAN-UX"/>
+      <property name="Datasheet_1" value="https://assets.nexperia.com/documents/data-sheet/PESD1CAN-U.pdf"/>
+      <property name="LCSC" value="C907839"/>
+      <property name="Footprint_1" value="PESD1CANUX"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>170fae87-8fe0-46cc-8a9e-f5f40a0924be</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>PESD1CAN-UX</value>
+      <footprint>Appreciate:PESD1CANUX</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/916/PESD1CAN_U-2938423.pdf</datasheet>
+      <fields>
+        <field name="Datasheet_1">https://assets.nexperia.com/documents/data-sheet/PESD1CAN-U.pdf</field>
+        <field name="Footprint_1">PESD1CANUX</field>
+        <field name="Height">1.1</field>
+        <field name="LCSC">C907839</field>
+        <field name="Manufacturer_Name">Nexperia</field>
+        <field name="Manufacturer_Part_Number">PESD1CAN-UX</field>
+        <field name="Mouser Part Number">771-PESD1CANUX</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Nexperia/PESD1CAN-UX?qs=fi7yB2oewZmfG%252BI%252BwWS45Q%3D%3D</field>
+      </fields>
+      <libsource lib="Appreciate" part="PESD1CAN-UX" description="NXP PESD1CAN, Dual Bi-Directional TVS Diode, 3-Pin SOT-23"/>
+      <property name="Height" value="1.1"/>
+      <property name="Mouser Part Number" value="771-PESD1CANUX"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD1CAN-UX?qs=fi7yB2oewZmfG%252BI%252BwWS45Q%3D%3D"/>
+      <property name="Manufacturer_Name" value="Nexperia"/>
+      <property name="Manufacturer_Part_Number" value="PESD1CAN-UX"/>
+      <property name="Datasheet_1" value="https://assets.nexperia.com/documents/data-sheet/PESD1CAN-U.pdf"/>
+      <property name="LCSC" value="C907839"/>
+      <property name="Footprint_1" value="PESD1CANUX"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fd691e53-e8bf-4173-83e0-ef2228a6fdae</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>PESD1CAN-UX</value>
+      <footprint>Appreciate:PESD1CANUX</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/916/PESD1CAN_U-2938423.pdf</datasheet>
+      <fields>
+        <field name="Datasheet_1">https://assets.nexperia.com/documents/data-sheet/PESD1CAN-U.pdf</field>
+        <field name="Footprint_1">PESD1CANUX</field>
+        <field name="Height">1.1</field>
+        <field name="LCSC">C907839</field>
+        <field name="Manufacturer_Name">Nexperia</field>
+        <field name="Manufacturer_Part_Number">PESD1CAN-UX</field>
+        <field name="Mouser Part Number">771-PESD1CANUX</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Nexperia/PESD1CAN-UX?qs=fi7yB2oewZmfG%252BI%252BwWS45Q%3D%3D</field>
+      </fields>
+      <libsource lib="Appreciate" part="PESD1CAN-UX" description="NXP PESD1CAN, Dual Bi-Directional TVS Diode, 3-Pin SOT-23"/>
+      <property name="Height" value="1.1"/>
+      <property name="Mouser Part Number" value="771-PESD1CANUX"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD1CAN-UX?qs=fi7yB2oewZmfG%252BI%252BwWS45Q%3D%3D"/>
+      <property name="Manufacturer_Name" value="Nexperia"/>
+      <property name="Manufacturer_Part_Number" value="PESD1CAN-UX"/>
+      <property name="Datasheet_1" value="https://assets.nexperia.com/documents/data-sheet/PESD1CAN-U.pdf"/>
+      <property name="LCSC" value="C907839"/>
+      <property name="Footprint_1" value="PESD1CANUX"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7b4e1b8b-21c4-4624-a32f-1b78d332cb3b</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>PESD1CAN-UX</value>
+      <footprint>Appreciate:PESD1CANUX</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/916/PESD1CAN_U-2938423.pdf</datasheet>
+      <fields>
+        <field name="Datasheet_1">https://assets.nexperia.com/documents/data-sheet/PESD1CAN-U.pdf</field>
+        <field name="Footprint_1">PESD1CANUX</field>
+        <field name="Height">1.1</field>
+        <field name="LCSC">C907839</field>
+        <field name="Manufacturer_Name">Nexperia</field>
+        <field name="Manufacturer_Part_Number">PESD1CAN-UX</field>
+        <field name="Mouser Part Number">771-PESD1CANUX</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Nexperia/PESD1CAN-UX?qs=fi7yB2oewZmfG%252BI%252BwWS45Q%3D%3D</field>
+      </fields>
+      <libsource lib="Appreciate" part="PESD1CAN-UX" description="NXP PESD1CAN, Dual Bi-Directional TVS Diode, 3-Pin SOT-23"/>
+      <property name="Height" value="1.1"/>
+      <property name="Mouser Part Number" value="771-PESD1CANUX"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD1CAN-UX?qs=fi7yB2oewZmfG%252BI%252BwWS45Q%3D%3D"/>
+      <property name="Manufacturer_Name" value="Nexperia"/>
+      <property name="Manufacturer_Part_Number" value="PESD1CAN-UX"/>
+      <property name="Datasheet_1" value="https://assets.nexperia.com/documents/data-sheet/PESD1CAN-U.pdf"/>
+      <property name="LCSC" value="C907839"/>
+      <property name="Footprint_1" value="PESD1CANUX"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9cbe595e-7982-483c-b51d-322d0a58604f</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>PESD1CAN-UX</value>
+      <footprint>Appreciate:PESD1CANUX</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/916/PESD1CAN_U-2938423.pdf</datasheet>
+      <fields>
+        <field name="Datasheet_1">https://assets.nexperia.com/documents/data-sheet/PESD1CAN-U.pdf</field>
+        <field name="Footprint_1">PESD1CANUX</field>
+        <field name="Height">1.1</field>
+        <field name="LCSC">C907839</field>
+        <field name="Manufacturer_Name">Nexperia</field>
+        <field name="Manufacturer_Part_Number">PESD1CAN-UX</field>
+        <field name="Mouser Part Number">771-PESD1CANUX</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Nexperia/PESD1CAN-UX?qs=fi7yB2oewZmfG%252BI%252BwWS45Q%3D%3D</field>
+      </fields>
+      <libsource lib="Appreciate" part="PESD1CAN-UX" description="NXP PESD1CAN, Dual Bi-Directional TVS Diode, 3-Pin SOT-23"/>
+      <property name="Height" value="1.1"/>
+      <property name="Mouser Part Number" value="771-PESD1CANUX"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD1CAN-UX?qs=fi7yB2oewZmfG%252BI%252BwWS45Q%3D%3D"/>
+      <property name="Manufacturer_Name" value="Nexperia"/>
+      <property name="Manufacturer_Part_Number" value="PESD1CAN-UX"/>
+      <property name="Datasheet_1" value="https://assets.nexperia.com/documents/data-sheet/PESD1CAN-U.pdf"/>
+      <property name="LCSC" value="C907839"/>
+      <property name="Footprint_1" value="PESD1CANUX"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>528beee4-56a5-43aa-a143-9e8b619afacf</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>PESD1CAN-UX</value>
+      <footprint>Appreciate:PESD1CANUX</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/916/PESD1CAN_U-2938423.pdf</datasheet>
+      <fields>
+        <field name="Datasheet_1">https://assets.nexperia.com/documents/data-sheet/PESD1CAN-U.pdf</field>
+        <field name="Footprint_1">PESD1CANUX</field>
+        <field name="Height">1.1</field>
+        <field name="LCSC">C907839</field>
+        <field name="Manufacturer_Name">Nexperia</field>
+        <field name="Manufacturer_Part_Number">PESD1CAN-UX</field>
+        <field name="Mouser Part Number">771-PESD1CANUX</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Nexperia/PESD1CAN-UX?qs=fi7yB2oewZmfG%252BI%252BwWS45Q%3D%3D</field>
+      </fields>
+      <libsource lib="Appreciate" part="PESD1CAN-UX" description="NXP PESD1CAN, Dual Bi-Directional TVS Diode, 3-Pin SOT-23"/>
+      <property name="Height" value="1.1"/>
+      <property name="Mouser Part Number" value="771-PESD1CANUX"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD1CAN-UX?qs=fi7yB2oewZmfG%252BI%252BwWS45Q%3D%3D"/>
+      <property name="Manufacturer_Name" value="Nexperia"/>
+      <property name="Manufacturer_Part_Number" value="PESD1CAN-UX"/>
+      <property name="Datasheet_1" value="https://assets.nexperia.com/documents/data-sheet/PESD1CAN-U.pdf"/>
+      <property name="LCSC" value="C907839"/>
+      <property name="Footprint_1" value="PESD1CANUX"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>85c45ecb-7204-4b57-bf6e-76fcf6f937d0</tstamps>
+    </comp>
+    <comp ref="D11">
+      <value>PESD1CAN-UX</value>
+      <footprint>Appreciate:PESD1CANUX</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/916/PESD1CAN_U-2938423.pdf</datasheet>
+      <fields>
+        <field name="Datasheet_1">https://assets.nexperia.com/documents/data-sheet/PESD1CAN-U.pdf</field>
+        <field name="Footprint_1">PESD1CANUX</field>
+        <field name="Height">1.1</field>
+        <field name="LCSC">C907839</field>
+        <field name="Manufacturer_Name">Nexperia</field>
+        <field name="Manufacturer_Part_Number">PESD1CAN-UX</field>
+        <field name="Mouser Part Number">771-PESD1CANUX</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Nexperia/PESD1CAN-UX?qs=fi7yB2oewZmfG%252BI%252BwWS45Q%3D%3D</field>
+      </fields>
+      <libsource lib="Appreciate" part="PESD1CAN-UX" description="NXP PESD1CAN, Dual Bi-Directional TVS Diode, 3-Pin SOT-23"/>
+      <property name="Height" value="1.1"/>
+      <property name="Mouser Part Number" value="771-PESD1CANUX"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD1CAN-UX?qs=fi7yB2oewZmfG%252BI%252BwWS45Q%3D%3D"/>
+      <property name="Manufacturer_Name" value="Nexperia"/>
+      <property name="Manufacturer_Part_Number" value="PESD1CAN-UX"/>
+      <property name="Datasheet_1" value="https://assets.nexperia.com/documents/data-sheet/PESD1CAN-U.pdf"/>
+      <property name="LCSC" value="C907839"/>
+      <property name="Footprint_1" value="PESD1CANUX"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>47b2658c-6bfc-48e0-a73d-793e6e0a0ec7</tstamps>
+    </comp>
+    <comp ref="D12">
+      <value>PESD1CAN-UX</value>
+      <footprint>Appreciate:PESD1CANUX</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/916/PESD1CAN_U-2938423.pdf</datasheet>
+      <fields>
+        <field name="Datasheet_1">https://assets.nexperia.com/documents/data-sheet/PESD1CAN-U.pdf</field>
+        <field name="Footprint_1">PESD1CANUX</field>
+        <field name="Height">1.1</field>
+        <field name="LCSC">C907839</field>
+        <field name="Manufacturer_Name">Nexperia</field>
+        <field name="Manufacturer_Part_Number">PESD1CAN-UX</field>
+        <field name="Mouser Part Number">771-PESD1CANUX</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Nexperia/PESD1CAN-UX?qs=fi7yB2oewZmfG%252BI%252BwWS45Q%3D%3D</field>
+      </fields>
+      <libsource lib="Appreciate" part="PESD1CAN-UX" description="NXP PESD1CAN, Dual Bi-Directional TVS Diode, 3-Pin SOT-23"/>
+      <property name="Height" value="1.1"/>
+      <property name="Mouser Part Number" value="771-PESD1CANUX"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD1CAN-UX?qs=fi7yB2oewZmfG%252BI%252BwWS45Q%3D%3D"/>
+      <property name="Manufacturer_Name" value="Nexperia"/>
+      <property name="Manufacturer_Part_Number" value="PESD1CAN-UX"/>
+      <property name="Datasheet_1" value="https://assets.nexperia.com/documents/data-sheet/PESD1CAN-U.pdf"/>
+      <property name="LCSC" value="C907839"/>
+      <property name="Footprint_1" value="PESD1CANUX"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fe542dbe-5028-4dfb-81a8-d50a9a359ec6</tstamps>
+    </comp>
+    <comp ref="D13">
+      <value>PESD1CAN-UX</value>
+      <footprint>Appreciate:PESD1CANUX</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/916/PESD1CAN_U-2938423.pdf</datasheet>
+      <fields>
+        <field name="Datasheet_1">https://assets.nexperia.com/documents/data-sheet/PESD1CAN-U.pdf</field>
+        <field name="Footprint_1">PESD1CANUX</field>
+        <field name="Height">1.1</field>
+        <field name="LCSC">C907839</field>
+        <field name="Manufacturer_Name">Nexperia</field>
+        <field name="Manufacturer_Part_Number">PESD1CAN-UX</field>
+        <field name="Mouser Part Number">771-PESD1CANUX</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Nexperia/PESD1CAN-UX?qs=fi7yB2oewZmfG%252BI%252BwWS45Q%3D%3D</field>
+      </fields>
+      <libsource lib="Appreciate" part="PESD1CAN-UX" description="NXP PESD1CAN, Dual Bi-Directional TVS Diode, 3-Pin SOT-23"/>
+      <property name="Height" value="1.1"/>
+      <property name="Mouser Part Number" value="771-PESD1CANUX"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD1CAN-UX?qs=fi7yB2oewZmfG%252BI%252BwWS45Q%3D%3D"/>
+      <property name="Manufacturer_Name" value="Nexperia"/>
+      <property name="Manufacturer_Part_Number" value="PESD1CAN-UX"/>
+      <property name="Datasheet_1" value="https://assets.nexperia.com/documents/data-sheet/PESD1CAN-U.pdf"/>
+      <property name="LCSC" value="C907839"/>
+      <property name="Footprint_1" value="PESD1CANUX"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ea813937-9961-4268-b0e6-ec65344c17e0</tstamps>
+    </comp>
+    <comp ref="D14">
+      <value>PESD1CAN-UX</value>
+      <footprint>Appreciate:PESD1CANUX</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/916/PESD1CAN_U-2938423.pdf</datasheet>
+      <fields>
+        <field name="Datasheet_1">https://assets.nexperia.com/documents/data-sheet/PESD1CAN-U.pdf</field>
+        <field name="Footprint_1">PESD1CANUX</field>
+        <field name="Height">1.1</field>
+        <field name="LCSC">C907839</field>
+        <field name="Manufacturer_Name">Nexperia</field>
+        <field name="Manufacturer_Part_Number">PESD1CAN-UX</field>
+        <field name="Mouser Part Number">771-PESD1CANUX</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Nexperia/PESD1CAN-UX?qs=fi7yB2oewZmfG%252BI%252BwWS45Q%3D%3D</field>
+      </fields>
+      <libsource lib="Appreciate" part="PESD1CAN-UX" description="NXP PESD1CAN, Dual Bi-Directional TVS Diode, 3-Pin SOT-23"/>
+      <property name="Height" value="1.1"/>
+      <property name="Mouser Part Number" value="771-PESD1CANUX"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD1CAN-UX?qs=fi7yB2oewZmfG%252BI%252BwWS45Q%3D%3D"/>
+      <property name="Manufacturer_Name" value="Nexperia"/>
+      <property name="Manufacturer_Part_Number" value="PESD1CAN-UX"/>
+      <property name="Datasheet_1" value="https://assets.nexperia.com/documents/data-sheet/PESD1CAN-U.pdf"/>
+      <property name="LCSC" value="C907839"/>
+      <property name="Footprint_1" value="PESD1CANUX"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e1d19861-5abd-4f3c-954b-35930c1220e9</tstamps>
+    </comp>
+    <comp ref="D15">
+      <value>PESD1CAN-UX</value>
+      <footprint>Appreciate:PESD1CANUX</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/916/PESD1CAN_U-2938423.pdf</datasheet>
+      <fields>
+        <field name="Datasheet_1">https://assets.nexperia.com/documents/data-sheet/PESD1CAN-U.pdf</field>
+        <field name="Footprint_1">PESD1CANUX</field>
+        <field name="Height">1.1</field>
+        <field name="LCSC">C907839</field>
+        <field name="Manufacturer_Name">Nexperia</field>
+        <field name="Manufacturer_Part_Number">PESD1CAN-UX</field>
+        <field name="Mouser Part Number">771-PESD1CANUX</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Nexperia/PESD1CAN-UX?qs=fi7yB2oewZmfG%252BI%252BwWS45Q%3D%3D</field>
+      </fields>
+      <libsource lib="Appreciate" part="PESD1CAN-UX" description="NXP PESD1CAN, Dual Bi-Directional TVS Diode, 3-Pin SOT-23"/>
+      <property name="Height" value="1.1"/>
+      <property name="Mouser Part Number" value="771-PESD1CANUX"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD1CAN-UX?qs=fi7yB2oewZmfG%252BI%252BwWS45Q%3D%3D"/>
+      <property name="Manufacturer_Name" value="Nexperia"/>
+      <property name="Manufacturer_Part_Number" value="PESD1CAN-UX"/>
+      <property name="Datasheet_1" value="https://assets.nexperia.com/documents/data-sheet/PESD1CAN-U.pdf"/>
+      <property name="LCSC" value="C907839"/>
+      <property name="Footprint_1" value="PESD1CANUX"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0e117a20-c94c-4c0e-aef6-d96d34183131</tstamps>
+    </comp>
+    <comp ref="D16">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C375581</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C375581"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e8221791-b10e-4a7d-84dd-07b9b56e9552</tstamps>
+    </comp>
+    <comp ref="D17">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C779453</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C779453"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>066fd63b-1b52-44d1-ba12-2b389f2bda98</tstamps>
+    </comp>
+    <comp ref="D18">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C779453</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C779453"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f5bb3cbc-ffd5-4153-8b83-ed980f26a5d2</tstamps>
+    </comp>
+    <comp ref="D19">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C779453</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C779453"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0e5339c0-cba9-487e-895d-7550f0d0f24a</tstamps>
+    </comp>
+    <comp ref="D20">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C779453</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C779453"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>94529c90-53a7-47e6-b41e-1baeec3694f6</tstamps>
+    </comp>
+    <comp ref="D21">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C779453</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C779453"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>71025845-d6b1-4b47-a3b9-f9349f375e84</tstamps>
+    </comp>
+    <comp ref="D22">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C779453</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C779453"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>523ad91a-905a-4666-b9bd-b8c35cacee2e</tstamps>
+    </comp>
+    <comp ref="D23">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C779453</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C779453"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>53304097-5a84-4412-afa4-48723a716d6e</tstamps>
+    </comp>
+    <comp ref="D24">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C779453</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C779453"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e294779d-c22b-4cfb-b561-060ba711fc80</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7cab04e0-e590-4664-b742-fb1da71474ca</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6efa5646-917a-426f-8b5f-58b932d85d4c</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>54753090-eb13-4ef2-8e67-7b9c9b71ba18</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e6b31c31-5d87-4874-a953-bcc5cc2fd1a3</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>250-202</value>
+      <footprint>250202</footprint>
+      <datasheet>https://www.wago.com/gb/pcb-terminal-blocks-and-pluggable-connectors/1-conductor-pcb-terminal-strip/p/250-202</datasheet>
+      <fields>
+        <field name="Description">Wago 250 Series, Female 2 Pole 2 Way PCB Terminal Strip, PCB Mount</field>
+        <field name="Height">13.1</field>
+        <field name="Manufacturer_Name">Wago</field>
+        <field name="Manufacturer_Part_Number">250-202</field>
+      </fields>
+      <libsource lib="Appreciate" part="250-202" description="Wago 250 Series, Female 2 Pole 2 Way PCB Terminal Strip, PCB Mount"/>
+      <property name="Description" value="Wago 250 Series, Female 2 Pole 2 Way PCB Terminal Strip, PCB Mount"/>
+      <property name="Height" value="13.1"/>
+      <property name="Future Part Number" value=""/>
+      <property name="Future Price/Stock" value=""/>
+      <property name="Manufacturer_Name" value="Wago"/>
+      <property name="Manufacturer_Part_Number" value="250-202"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>389a4b35-c7db-4b03-9323-785170b4bc3c</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>conn_04_03</value>
+      <footprint>Appreciate:conn_04x03</footprint>
+      <libsource lib="Appreciate" part="conn_04_03" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f0c037a9-7e6a-47c2-a673-f42da786d923</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>250-203</value>
+      <footprint>250-203_1</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/250-203.pdf</datasheet>
+      <fields>
+        <field name="Description">WAGO - 250-203. - TERMINAL BLOCK, WIRE TO BRD, 3POS, 16AWG</field>
+        <field name="Manufacturer_Name">Wago</field>
+        <field name="Manufacturer_Part_Number">250-203</field>
+      </fields>
+      <libsource lib="Appreciate" part="250-203" description="WAGO - 250-203. - TERMINAL BLOCK, WIRE TO BRD, 3POS, 16AWG"/>
+      <property name="Description" value="WAGO - 250-203. - TERMINAL BLOCK, WIRE TO BRD, 3POS, 16AWG"/>
+      <property name="Height" value=""/>
+      <property name="Future Part Number" value=""/>
+      <property name="Future Price/Stock" value=""/>
+      <property name="Manufacturer_Name" value="Wago"/>
+      <property name="Manufacturer_Part_Number" value="250-203"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8b2c79dc-8602-4add-9ae5-ef6cd6fcf235</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>conn_04_03</value>
+      <footprint>Appreciate:conn_04x03</footprint>
+      <libsource lib="Appreciate" part="conn_04_03" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b485f0e9-678b-4f93-9e0f-3d8a3a1a3aa7</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x03</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e15257cf-fd9c-477e-8619-fb70048308d1</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b0de2369-5799-43d6-a29b-cb1b48c6a5b4</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>conn_04_03</value>
+      <footprint>Appreciate:conn_04x03</footprint>
+      <libsource lib="Appreciate" part="conn_04_03" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>960b33f6-35cc-4835-9c4d-bcf31dbb5720</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>conn_04_03</value>
+      <footprint>Appreciate:conn_04x03</footprint>
+      <libsource lib="Appreciate" part="conn_04_03" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed157e07-8688-49a5-a0ab-b8a97002099a</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>Conn_01x03</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>afececfc-5754-47d6-b397-d8f4982e5054</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>Conn_02x03_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x03_Odd_Even" description="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>824589d5-300d-43ec-8e28-920068f83461</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>250-202</value>
+      <footprint>250202</footprint>
+      <datasheet>https://www.wago.com/gb/pcb-terminal-blocks-and-pluggable-connectors/1-conductor-pcb-terminal-strip/p/250-202</datasheet>
+      <fields>
+        <field name="Description">Wago 250 Series, Female 2 Pole 2 Way PCB Terminal Strip, PCB Mount</field>
+        <field name="Height">13.1</field>
+        <field name="Manufacturer_Name">Wago</field>
+        <field name="Manufacturer_Part_Number">250-202</field>
+      </fields>
+      <libsource lib="Appreciate" part="250-202" description="Wago 250 Series, Female 2 Pole 2 Way PCB Terminal Strip, PCB Mount"/>
+      <property name="Description" value="Wago 250 Series, Female 2 Pole 2 Way PCB Terminal Strip, PCB Mount"/>
+      <property name="Height" value="13.1"/>
+      <property name="Future Part Number" value=""/>
+      <property name="Future Price/Stock" value=""/>
+      <property name="Manufacturer_Name" value="Wago"/>
+      <property name="Manufacturer_Part_Number" value="250-202"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f3439b46-01a7-474c-852b-f984c2d9b00f</tstamps>
+    </comp>
+    <comp ref="J12">
+      <value>250-202</value>
+      <footprint>250202</footprint>
+      <datasheet>https://www.wago.com/gb/pcb-terminal-blocks-and-pluggable-connectors/1-conductor-pcb-terminal-strip/p/250-202</datasheet>
+      <fields>
+        <field name="Description">Wago 250 Series, Female 2 Pole 2 Way PCB Terminal Strip, PCB Mount</field>
+        <field name="Height">13.1</field>
+        <field name="Manufacturer_Name">Wago</field>
+        <field name="Manufacturer_Part_Number">250-202</field>
+      </fields>
+      <libsource lib="Appreciate" part="250-202" description="Wago 250 Series, Female 2 Pole 2 Way PCB Terminal Strip, PCB Mount"/>
+      <property name="Description" value="Wago 250 Series, Female 2 Pole 2 Way PCB Terminal Strip, PCB Mount"/>
+      <property name="Height" value="13.1"/>
+      <property name="Future Part Number" value=""/>
+      <property name="Future Price/Stock" value=""/>
+      <property name="Manufacturer_Name" value="Wago"/>
+      <property name="Manufacturer_Part_Number" value="250-202"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>72931eed-4fb6-475f-9d59-a398e602158b</tstamps>
+    </comp>
+    <comp ref="J13">
+      <value>Conn_02x05_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>256fc65e-d88f-42bd-9e9d-926354dcb3f8</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>DMG2305UX-13</value>
+      <footprint>Appreciate:SOT96P240X120-3N</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMG2305UX.pdf</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">https://www.diodes.com/assets/Datasheets/DMG2305UX.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/diodes-incorporated/DMG2305UX-13/DMG2305UX-13DICT-ND/4251589</field>
+        <field name="Description">MOSFET P-CH 20V 4.2A SOT23</field>
+        <field name="Digi-Key_PN">DMG2305UX-13DICT-ND</field>
+        <field name="Family">Transistors - FETs, MOSFETs - Single</field>
+        <field name="LCSC">C144153</field>
+        <field name="MPN">DMG2305UX-13</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="Appreciate" part="DMG2305UX-13" description="MOSFET P-CH 20V 4.2A SOT23"/>
+      <property name="Digi-Key_PN" value="DMG2305UX-13DICT-ND"/>
+      <property name="MPN" value="DMG2305UX-13"/>
+      <property name="Category" value="Discrete Semiconductor Products"/>
+      <property name="Family" value="Transistors - FETs, MOSFETs - Single"/>
+      <property name="DK_Datasheet_Link" value="https://www.diodes.com/assets/Datasheets/DMG2305UX.pdf"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/diodes-incorporated/DMG2305UX-13/DMG2305UX-13DICT-ND/4251589"/>
+      <property name="Description" value="MOSFET P-CH 20V 4.2A SOT23"/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
+      <property name="Status" value="Active"/>
+      <property name="LCSC" value="C144153"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5a61284e-081d-4a99-a647-cd1495d42928</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>5K1</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C118077</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C118077"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0fcee3d0-e1ac-4017-bc9a-eeb1da269f27</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>5K1</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C118077</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C118077"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a69f841-859d-4354-bd6d-58546c21faa0</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>5K1</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C118077</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C118077"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e3fbef1a-398e-4645-839d-6fbd957a0b47</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>5K1</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C118077</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C118077"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1e78de8b-3ec6-41f7-9efd-be5ce8d17487</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>5K1</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C118077</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C118077"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2863c215-f331-41f8-956d-7b11d618c75a</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>5K1</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C118077</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C118077"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>12c0aac4-d8f4-458b-bef6-1b784748fc40</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>5K1</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C118077</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C118077"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a9b8f5bb-799e-454e-a40c-d4fdb253949b</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C17901</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C17901"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fc232f73-2808-45e4-b4cf-704ac8f2cd43</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>5K1</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C118077</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C118077"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1beaa963-5724-4637-8fd2-ebb1da917dd3</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>R_Small</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C365384</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C365384"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>050a4802-6ddc-4140-ad41-dadd85d26795</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>R_Small</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C365384</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C365384"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d6574822-48ea-4c7e-ac36-2471888a0397</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>R_Small</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C365384</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C365384"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e8742fa7-f4ac-45e1-ade1-d30e73fe4eeb</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>R_Small</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C365384</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C365384"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>289578b1-259e-45e7-9b35-fd3dbd9b8b7c</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>R_Small</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C365384</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C365384"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a9db80c-f0d2-4bd6-b581-868ba90600dc</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>R_Small</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C365384</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C365384"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e667fd23-ae57-423e-80ac-71d2d3ad2463</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>R_Small</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C365384</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C365384"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>937f1bad-be1c-4d02-96af-716075228d7e</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>R_Small</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C365384</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C365384"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>89d973d3-94cd-4e2c-9c83-d683ed79dad2</tstamps>
+    </comp>
+    <comp ref="S1">
+      <value>KSC623JLFG</value>
+      <footprint>Appreciate:KSC623JLFG</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/240/ksc6-3051046.pdf</datasheet>
+      <fields>
+        <field name="Datasheet_1">https://www.ckswitches.com/media/1972/ksc6.pdf</field>
+        <field name="Footprint_1">KSC623JLFG</field>
+        <field name="Height">7.7</field>
+        <field name="LCSC">C386734</field>
+        <field name="Manufacturer_Name">C &amp; K COMPONENTS</field>
+        <field name="Manufacturer_Part_Number">KSC623JLFG</field>
+        <field name="Mouser Part Number">611-KSC623JLFG</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/CK/KSC623JLFG?qs=8LLMQjkBYsLsrtNBSQ66UQ%3D%3D</field>
+        <field name="Reference_1">S</field>
+        <field name="Value_1">KSC623JLFG</field>
+      </fields>
+      <libsource lib="Appreciate" part="KSC623JLFG" description="KSC623JLFG (Tactile Switches)"/>
+      <property name="Reference_1" value="S"/>
+      <property name="Value_1" value="KSC623JLFG"/>
+      <property name="Footprint_1" value="KSC623JLFG"/>
+      <property name="Datasheet_1" value="https://www.ckswitches.com/media/1972/ksc6.pdf"/>
+      <property name="Height" value="7.7"/>
+      <property name="Mouser Part Number" value="611-KSC623JLFG"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/CK/KSC623JLFG?qs=8LLMQjkBYsLsrtNBSQ66UQ%3D%3D"/>
+      <property name="Manufacturer_Name" value="C &amp; K COMPONENTS"/>
+      <property name="Manufacturer_Part_Number" value="KSC623JLFG"/>
+      <property name="LCSC" value="C386734"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fbf78470-504e-46dd-93fd-6002533154c8</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>Weewooday-820</value>
+      <footprint>Appreciate:Weewooday-820</footprint>
+      <libsource lib="Appreciate" part="Weewooday-820" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>21faf74d-c9db-4b83-8c7a-1b684b997264</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>RPi_Pico_W</value>
+      <footprint>Appreciate:RPi Pico W</footprint>
+      <libsource lib="Appreciate" part="RPi_Pico_W" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>221a521e-a875-42d5-8ab8-c9849c42ca25</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>RPi_Picobell_CAN_Bus</value>
+      <footprint>Appreciate:RPi Pico W</footprint>
+      <libsource lib="Appreciate" part="RPi_Picobell_CAN_Bus" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>322c01fe-8b3a-4c04-8e28-3cfae44a0c46</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>PCA9685PW</value>
+      <footprint>Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm</footprint>
+      <datasheet>http://www.nxp.com/documents/data_sheet/PCA9685.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2678753</field>
+      </fields>
+      <libsource lib="Driver_LED" part="PCA9685PW" description="16-channel 12-bit PWM Fm+ I2C-bus LED controller RGBA TSSOP"/>
+      <property name="LCSC" value="C2678753"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2b179202-c49f-4989-90be-b79c2dda0ee1</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>TCA9546</value>
+      <footprint>Package_SO:TSSOP-16_4.4x5mm_P0.65mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tca9546a.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&amp;ts=1688006167267&amp;ref_url=https%253A%252F%252Fwww.mouser.com%252F</datasheet>
+      <fields>
+        <field name="LCSC">C201653</field>
+      </fields>
+      <libsource lib="Appreciate" part="TCA9546" description=""/>
+      <property name="LCSC" value="C201653"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1afcac9c-e10e-4c12-a879-a2c73c911222</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>Ethernet_FeatherWing</value>
+      <footprint>Appreciate:Feather_M4_CAN_Express</footprint>
+      <libsource lib="Appreciate" part="Ethernet_FeatherWing" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c3b8dfc0-16ca-4cf7-a5c8-9055f715fed9</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>TXS0104EPW</value>
+      <footprint>Package_SO:TSSOP-14_4.4x5mm_P0.65mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/txs0104e.pdf?ts=1703693015299&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTXS0104E</datasheet>
+      <fields>
+        <field name="LCSC">C44955</field>
+      </fields>
+      <libsource lib="Appreciate" part="TXS0104EPW" description=""/>
+      <property name="LCSC" value="C44955"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1e8c0068-68de-45fb-be0b-7c9ce614d088</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>TXS0104EPW</value>
+      <footprint>Package_SO:TSSOP-14_4.4x5mm_P0.65mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/txs0104e.pdf?ts=1703693015299&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTXS0104E</datasheet>
+      <fields>
+        <field name="LCSC">C44955</field>
+      </fields>
+      <libsource lib="Appreciate" part="TXS0104EPW" description=""/>
+      <property name="LCSC" value="C44955"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2f50f8e9-eff6-4ff2-a15a-038b8de7bbf7</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>APX321WG-7</value>
+      <footprint>Appreciate:SOT95P285X145-5N</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/APX321_358.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">APX321WG-7</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/apx321wg-7/diodes-incorporated?region=nac</field>
+        <field name="Height">1.45</field>
+        <field name="LCSC">C151412</field>
+        <field name="Manufacturer_Name">Diodes Inc.</field>
+        <field name="Manufacturer_Part_Number">APX321WG-7</field>
+        <field name="Mouser Part Number">621-APX321WG-7</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/APX321WG-7?qs=mno522deGfZHxl564koOsA%3D%3D</field>
+      </fields>
+      <libsource lib="Appreciate" part="APX321WG-7" description="DIODES INC. - APX321WG-7 - Operational Amplifier, Single, 1 Amplifier, 1 MHz, 1 V/s, +/- 2.5V to +/- 5.5V, SOT-25, 5 Pins"/>
+      <property name="Height" value="1.45"/>
+      <property name="Manufacturer_Name" value="Diodes Inc."/>
+      <property name="Manufacturer_Part_Number" value="APX321WG-7"/>
+      <property name="Mouser Part Number" value="621-APX321WG-7"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/APX321WG-7?qs=mno522deGfZHxl564koOsA%3D%3D"/>
+      <property name="Arrow Part Number" value="APX321WG-7"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/apx321wg-7/diodes-incorporated?region=nac"/>
+      <property name="LCSC" value="C151412"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ee5c5207-56c5-4f7e-a5d3-2c86239468f7</tstamps>
+    </comp>
+    <comp ref="U10">
+      <value>APX321WG-7</value>
+      <footprint>Appreciate:SOT95P285X145-5N</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/APX321_358.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">APX321WG-7</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/apx321wg-7/diodes-incorporated?region=nac</field>
+        <field name="Height">1.45</field>
+        <field name="LCSC">C151412</field>
+        <field name="Manufacturer_Name">Diodes Inc.</field>
+        <field name="Manufacturer_Part_Number">APX321WG-7</field>
+        <field name="Mouser Part Number">621-APX321WG-7</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/APX321WG-7?qs=mno522deGfZHxl564koOsA%3D%3D</field>
+      </fields>
+      <libsource lib="Appreciate" part="APX321WG-7" description="DIODES INC. - APX321WG-7 - Operational Amplifier, Single, 1 Amplifier, 1 MHz, 1 V/s, +/- 2.5V to +/- 5.5V, SOT-25, 5 Pins"/>
+      <property name="Height" value="1.45"/>
+      <property name="Manufacturer_Name" value="Diodes Inc."/>
+      <property name="Manufacturer_Part_Number" value="APX321WG-7"/>
+      <property name="Mouser Part Number" value="621-APX321WG-7"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/APX321WG-7?qs=mno522deGfZHxl564koOsA%3D%3D"/>
+      <property name="Arrow Part Number" value="APX321WG-7"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/apx321wg-7/diodes-incorporated?region=nac"/>
+      <property name="LCSC" value="C151412"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>36ce7b2b-045f-4f6a-9759-43886fd103c0</tstamps>
+    </comp>
+    <comp ref="U11">
+      <value>74HC14</value>
+      <footprint>Package_SO:TSSOP-14_4.4x5mm_P0.65mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74HC14</datasheet>
+      <fields>
+        <field name="LCSC">C2866133</field>
+      </fields>
+      <libsource lib="74xx" part="74HC14" description="Hex inverter schmitt trigger"/>
+      <property name="LCSC" value="C2866133"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6616f5ad-60bb-4b46-99ef-98c88a8a00c4 be76fe3d-e374-4d2c-8f7e-991a49502386 c98dab9c-a09f-4434-8db1-a021d6ca6a67 6e6bccb9-3a30-4649-8ef1-1dcfebc7d624 a9f83fc0-d629-4d06-8cb2-902dfacc4ab9 ef22d63c-d68e-487d-ac2e-ce1dc16fceb4 0bfb39ce-ba33-42a4-926f-8c05e9f78ee6</tstamps>
+    </comp>
+    <comp ref="U12">
+      <value>74HC14</value>
+      <footprint>Package_SO:TSSOP-14_4.4x5mm_P0.65mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74HC14</datasheet>
+      <fields>
+        <field name="LCSC">C2866133</field>
+      </fields>
+      <libsource lib="74xx" part="74HC14" description="Hex inverter schmitt trigger"/>
+      <property name="LCSC" value="C2866133"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3ab479d7-c90c-4301-80ab-a01b440bac06 21e25b86-1b18-41c4-8af4-3c141f5ec830 eb13ec54-081f-48c5-a653-3b4fe4528c8d c64eb141-9995-47c4-944e-d9e8bc35799e 45252245-abc4-44f0-81b0-8770cb89a465 4ef4c0a4-1f52-4c16-aa7d-8af5b2c19ce1 15eccd16-0106-46cd-87bc-217025c821cc</tstamps>
+    </comp>
+    <comp ref="U13">
+      <value>PCA9685PW</value>
+      <footprint>Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm</footprint>
+      <datasheet>http://www.nxp.com/documents/data_sheet/PCA9685.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2678753</field>
+      </fields>
+      <libsource lib="Driver_LED" part="PCA9685PW" description="16-channel 12-bit PWM Fm+ I2C-bus LED controller RGBA TSSOP"/>
+      <property name="LCSC" value="C2678753"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>11b1f1bf-9f55-478a-8641-4e6973a6bbad</tstamps>
+    </comp>
+    <comp ref="X1">
+      <value>STEMMA_I2C_QT</value>
+      <footprint>Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical</footprint>
+      <datasheet>https://www.jst-mfg.com/product/pdf/eng/eSH.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C545725</field>
+      </fields>
+      <libsource lib="Appreciate" part="STEMMA_I2C_QT" description=""/>
+      <property name="LCSC" value="C545725"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2e792e87-e1e9-4a25-bca4-9eba263200e2</tstamps>
+    </comp>
+    <comp ref="X2">
+      <value>STEMMA_I2C_QT</value>
+      <footprint>Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical</footprint>
+      <datasheet>https://www.jst-mfg.com/product/pdf/eng/eSH.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C545725</field>
+      </fields>
+      <libsource lib="Appreciate" part="STEMMA_I2C_QT" description=""/>
+      <property name="LCSC" value="C545725"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5ecbc88d-8602-40ba-bbb1-bbd1668ee93b</tstamps>
+    </comp>
+    <comp ref="X3">
+      <value>STEMMA_I2C_QT</value>
+      <footprint>Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical</footprint>
+      <datasheet>https://www.jst-mfg.com/product/pdf/eng/eSH.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C545725</field>
+      </fields>
+      <libsource lib="Appreciate" part="STEMMA_I2C_QT" description=""/>
+      <property name="LCSC" value="C545725"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4e104d1f-c4b7-42f0-96cd-8304de4b449f</tstamps>
+    </comp>
+    <comp ref="X4">
+      <value>STEMMA_I2C_QT</value>
+      <footprint>Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical</footprint>
+      <datasheet>https://www.jst-mfg.com/product/pdf/eng/eSH.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C545725</field>
+      </fields>
+      <libsource lib="Appreciate" part="STEMMA_I2C_QT" description=""/>
+      <property name="LCSC" value="C545725"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>69910a23-e988-4e75-88ed-6de5a1b33fb3</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="74xx" part="74HC14">
+      <description>Hex inverter schmitt trigger</description>
+      <docs>http://www.ti.com/lit/gpn/sn74HC14</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74HC14</field>
+        <field name="Datasheet">http://www.ti.com/lit/gpn/sn74HC14</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="output"/>
+        <pin num="3" name="" type="input"/>
+        <pin num="4" name="" type="output"/>
+        <pin num="5" name="" type="input"/>
+        <pin num="6" name="" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="" type="output"/>
+        <pin num="9" name="" type="input"/>
+        <pin num="10" name="" type="output"/>
+        <pin num="11" name="" type="input"/>
+        <pin num="12" name="" type="output"/>
+        <pin num="13" name="" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Appreciate" part="250-202">
+      <description>Wago 250 Series, Female 2 Pole 2 Way PCB Terminal Strip, PCB Mount</description>
+      <docs>https://www.wago.com/gb/pcb-terminal-blocks-and-pluggable-connectors/1-conductor-pcb-terminal-strip/p/250-202</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">250-202</field>
+        <field name="Footprint">250202</field>
+        <field name="Datasheet">https://www.wago.com/gb/pcb-terminal-blocks-and-pluggable-connectors/1-conductor-pcb-terminal-strip/p/250-202</field>
+        <field name="Description">Wago 250 Series, Female 2 Pole 2 Way PCB Terminal Strip, PCB Mount</field>
+        <field name="Height">13.1</field>
+        <field name="Manufacturer_Name">Wago</field>
+        <field name="Manufacturer_Part_Number">250-202</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Appreciate" part="250-203">
+      <description>WAGO - 250-203. - TERMINAL BLOCK, WIRE TO BRD, 3POS, 16AWG</description>
+      <docs>https://componentsearchengine.com/Datasheets/2/250-203.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">250-203</field>
+        <field name="Footprint">250-203_1</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/2/250-203.pdf</field>
+        <field name="Description">WAGO - 250-203. - TERMINAL BLOCK, WIRE TO BRD, 3POS, 16AWG</field>
+        <field name="Manufacturer_Name">Wago</field>
+        <field name="Manufacturer_Part_Number">250-203</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Appreciate" part="APX321WG-7">
+      <description>DIODES INC. - APX321WG-7 - Operational Amplifier, Single, 1 Amplifier, 1 MHz, 1 V/s, +/- 2.5V to +/- 5.5V, SOT-25, 5 Pins</description>
+      <docs>https://www.diodes.com/assets/Datasheets/APX321_358.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">APX321WG-7</field>
+        <field name="Footprint">Appreciate:SOT95P285X145-5N</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/APX321_358.pdf</field>
+        <field name="Height">1.45</field>
+        <field name="Manufacturer_Name">Diodes Inc.</field>
+        <field name="Manufacturer_Part_Number">APX321WG-7</field>
+        <field name="Mouser Part Number">621-APX321WG-7</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/APX321WG-7?qs=mno522deGfZHxl564koOsA%3D%3D</field>
+        <field name="Arrow Part Number">APX321WG-7</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/apx321wg-7/diodes-incorporated?region=nac</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN+" type="passive"/>
+        <pin num="2" name="V-" type="passive"/>
+        <pin num="3" name="IN-" type="passive"/>
+        <pin num="4" name="OUT" type="passive"/>
+        <pin num="5" name="V+" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Appreciate" part="DMG2305UX-13">
+      <description>MOSFET P-CH 20V 4.2A SOT23</description>
+      <docs>https://www.diodes.com/assets/Datasheets/DMG2305UX.pdf</docs>
+      <fields>
+        <field name="Reference">Q1</field>
+        <field name="Value">DMG2305UX-13</field>
+        <field name="Footprint">Appreciate:SOT96P240X120-3N</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/DMG2305UX.pdf</field>
+        <field name="Digi-Key_PN">DMG2305UX-13DICT-ND</field>
+        <field name="MPN">DMG2305UX-13</field>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="Family">Transistors - FETs, MOSFETs - Single</field>
+        <field name="DK_Datasheet_Link">https://www.diodes.com/assets/Datasheets/DMG2305UX.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/diodes-incorporated/DMG2305UX-13/DMG2305UX-13DICT-ND/4251589</field>
+        <field name="Description">MOSFET P-CH 20V 4.2A SOT23</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Status">Active</field>
+        <field name="LCSC">C144153</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="bidirectional"/>
+        <pin num="2" name="S" type="bidirectional"/>
+        <pin num="3" name="D" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Appreciate" part="Ethernet_FeatherWing">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Ethernet_FeatherWing</field>
+        <field name="Footprint">Appreciate:Feather_M4_CAN_Express</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RESETn" type="input"/>
+        <pin num="2" name="3V3" type="power_in"/>
+        <pin num="3" name="AREF" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="GPIOA0" type="bidirectional"/>
+        <pin num="6" name="GPIOA1" type="bidirectional"/>
+        <pin num="7" name="GPIOA2" type="bidirectional"/>
+        <pin num="8" name="GPIOA3" type="bidirectional"/>
+        <pin num="9" name="GPIOA4" type="bidirectional"/>
+        <pin num="10" name="GPIOA5" type="bidirectional"/>
+        <pin num="11" name="SCK" type="input"/>
+        <pin num="12" name="MOSI" type="input"/>
+        <pin num="13" name="MISO" type="output"/>
+        <pin num="14" name="GPIORX" type="bidirectional"/>
+        <pin num="15" name="GPIOTX" type="bidirectional"/>
+        <pin num="16" name="NC" type="bidirectional"/>
+        <pin num="17" name="GPIOSDA" type="bidirectional"/>
+        <pin num="18" name="GPIOSCL" type="bidirectional"/>
+        <pin num="19" name="GPIOD5" type="bidirectional"/>
+        <pin num="20" name="GPIOD6" type="bidirectional"/>
+        <pin num="21" name="GPIOD9" type="bidirectional"/>
+        <pin num="22" name="CSn" type="input"/>
+        <pin num="23" name="GPIOD11" type="bidirectional"/>
+        <pin num="24" name="GPIOD12" type="bidirectional"/>
+        <pin num="25" name="GPIOD13" type="bidirectional"/>
+        <pin num="26" name="USB" type="power_in"/>
+        <pin num="27" name="EN" type="input"/>
+        <pin num="28" name="VBAT" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Appreciate" part="KSC623JLFG">
+      <description>KSC623JLFG (Tactile Switches)</description>
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">KSC623JLFG</field>
+        <field name="Footprint">Appreciate:KSC623JLFG</field>
+        <field name="Reference_1">S</field>
+        <field name="Value_1">KSC623JLFG</field>
+        <field name="Footprint_1">KSC623JLFG</field>
+        <field name="Datasheet_1">https://www.ckswitches.com/media/1972/ksc6.pdf</field>
+        <field name="Height">7.7</field>
+        <field name="Mouser Part Number">611-KSC623JLFG</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/CK/KSC623JLFG?qs=8LLMQjkBYsLsrtNBSQ66UQ%3D%3D</field>
+        <field name="Manufacturer_Name">C &amp; K COMPONENTS</field>
+        <field name="Manufacturer_Part_Number">KSC623JLFG</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NO_1" type="passive"/>
+        <pin num="2" name="NO_2" type="passive"/>
+        <pin num="3" name="COM_1" type="passive"/>
+        <pin num="4" name="COM_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Appreciate" part="PESD1CAN-UX">
+      <description>NXP PESD1CAN, Dual Bi-Directional TVS Diode, 3-Pin SOT-23</description>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">PESD1CAN-UX</field>
+        <field name="Footprint">Appreciate:PESD1CANUX</field>
+        <field name="Reference_1">D</field>
+        <field name="Value_1">PESD1CAN-UX</field>
+        <field name="Footprint_1">PESD1CANUX</field>
+        <field name="Datasheet_1">https://assets.nexperia.com/documents/data-sheet/PESD1CAN-U.pdf</field>
+        <field name="Height">1.1</field>
+        <field name="Mouser Part Number">771-PESD1CANUX</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Nexperia/PESD1CAN-UX?qs=fi7yB2oewZmfG%252BI%252BwWS45Q%3D%3D</field>
+        <field name="Manufacturer_Name">Nexperia</field>
+        <field name="Manufacturer_Part_Number">PESD1CAN-UX</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CATHODE_1" type="passive"/>
+        <pin num="2" name="CATHODE_2" type="passive"/>
+        <pin num="3" name="_COMMON_CATHODE" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Appreciate" part="RPi_Pico_W">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RPi_Pico_W</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GP0/U0TX/SDA0/MISO0" type="bidirectional"/>
+        <pin num="2" name="GP1/U0RX/SCL0/CSn0" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="GP2/SDA1/SCK0" type="bidirectional"/>
+        <pin num="5" name="GP3/SCL1/MOSI0" type="bidirectional"/>
+        <pin num="6" name="GP4/U1TX/SDA0/MISO" type="bidirectional"/>
+        <pin num="7" name="GP5/U1RX/SCL0/CSn0" type="bidirectional"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="GP6/SDA1/SCK0" type="bidirectional"/>
+        <pin num="10" name="GP7/SCL1/MOSI0" type="bidirectional"/>
+        <pin num="11" name="GP8/U1TX/SDA0/MISO1" type="bidirectional"/>
+        <pin num="12" name="GP9/U1RX/SCL0/CSn1" type="bidirectional"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="GP10/SDA1/SCK1" type="bidirectional"/>
+        <pin num="15" name="GP11/SCL1/MOSI1" type="bidirectional"/>
+        <pin num="16" name="GP12/U0TX/SDA0/MISO1" type="bidirectional"/>
+        <pin num="17" name="GP13/U0RX/SCL0/CSn1" type="bidirectional"/>
+        <pin num="18" name="GND" type="power_in"/>
+        <pin num="19" name="GP14/SDA1/SCK1" type="bidirectional"/>
+        <pin num="20" name="GP15/SCL1/MOSI1" type="bidirectional"/>
+        <pin num="21" name="GP16/U0TX/SDA0/MISO0" type="bidirectional"/>
+        <pin num="22" name="GP17/U0RX/SCL0/CSn0" type="bidirectional"/>
+        <pin num="23" name="GND" type="power_in"/>
+        <pin num="24" name="GP18/SDA1/SCK0" type="bidirectional"/>
+        <pin num="25" name="GP19/SCL1/MOSI0" type="bidirectional"/>
+        <pin num="26" name="GP20/SDA0" type="bidirectional"/>
+        <pin num="27" name="GP21/SCL0" type="bidirectional"/>
+        <pin num="28" name="GND" type="power_in"/>
+        <pin num="29" name="GP22" type="bidirectional"/>
+        <pin num="30" name="RUNn" type="input"/>
+        <pin num="31" name="GP26/SDA1/ADC0" type="bidirectional"/>
+        <pin num="32" name="GP27/SCL1/ADC1" type="bidirectional"/>
+        <pin num="33" name="GND" type="power_in"/>
+        <pin num="34" name="GP28/ADC2" type="bidirectional"/>
+        <pin num="35" name="ADC_VREF" type="input"/>
+        <pin num="36" name="3V3" type="power_in"/>
+        <pin num="37" name="3V3_EN" type="input"/>
+        <pin num="38" name="GND" type="power_in"/>
+        <pin num="39" name="VSYS" type="power_in"/>
+        <pin num="40" name="VBUS" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Appreciate" part="RPi_Picobell_CAN_Bus">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RPi_Picobell_CAN_Bus</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GP0/NC9" type="bidirectional"/>
+        <pin num="2" name="GP1/NC1" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="GP2/NC2" type="bidirectional"/>
+        <pin num="5" name="GP3/NC3" type="bidirectional"/>
+        <pin num="6" name="GP4/NC4" type="bidirectional"/>
+        <pin num="7" name="GP5/NC5" type="bidirectional"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="GP6/NC6" type="bidirectional"/>
+        <pin num="10" name="GP7/NC7" type="bidirectional"/>
+        <pin num="11" name="GP8/NC8" type="bidirectional"/>
+        <pin num="12" name="GP9/NC9" type="bidirectional"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="GP10/NC10" type="bidirectional"/>
+        <pin num="15" name="GP11/NC11" type="bidirectional"/>
+        <pin num="16" name="GP12/NC12" type="bidirectional"/>
+        <pin num="17" name="GP13/NC13" type="bidirectional"/>
+        <pin num="18" name="GND" type="power_in"/>
+        <pin num="19" name="GP14/NC14" type="bidirectional"/>
+        <pin num="20" name="GP15/NC15" type="bidirectional"/>
+        <pin num="21" name="GP16/MISO0" type="bidirectional"/>
+        <pin num="22" name="GP17/U0RX/SCL0/CSn0" type="bidirectional"/>
+        <pin num="23" name="GND" type="power_in"/>
+        <pin num="24" name="GP18/SCK0" type="bidirectional"/>
+        <pin num="25" name="GP19/MOSI0" type="bidirectional"/>
+        <pin num="26" name="GP20/CAN_CS" type="bidirectional"/>
+        <pin num="27" name="GP21/CAN_INT" type="bidirectional"/>
+        <pin num="28" name="GND" type="power_in"/>
+        <pin num="29" name="GP22/NC22" type="bidirectional"/>
+        <pin num="30" name="RUNn" type="input"/>
+        <pin num="31" name="GP26/NC26" type="bidirectional"/>
+        <pin num="32" name="GP27/NC27" type="bidirectional"/>
+        <pin num="33" name="GND" type="power_in"/>
+        <pin num="34" name="GP28/NC28" type="bidirectional"/>
+        <pin num="35" name="ADC_VREF" type="input"/>
+        <pin num="36" name="3V3" type="power_in"/>
+        <pin num="37" name="3V3_EN" type="input"/>
+        <pin num="38" name="GND" type="power_in"/>
+        <pin num="39" name="VSYS" type="power_in"/>
+        <pin num="40" name="VBUS" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Appreciate" part="STEMMA_I2C_QT">
+      <docs>https://www.jst-mfg.com/product/pdf/eng/eSH.pdf</docs>
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">STEMMA_I2C_QT</field>
+        <field name="Footprint">Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical</field>
+        <field name="Datasheet">https://www.jst-mfg.com/product/pdf/eng/eSH.pdf</field>
+        <field name="LCSC">C545725</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="V+" type="passive"/>
+        <pin num="3" name="SDA" type="bidirectional"/>
+        <pin num="4" name="SCL" type="bidirectional"/>
+        <pin num="MP" name="MP" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Appreciate" part="TCA9546">
+      <docs>https://www.ti.com/lit/ds/symlink/tca9546a.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&amp;ts=1688006167267&amp;ref_url=https%253A%252F%252Fwww.mouser.com%252F</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TCA9546</field>
+        <field name="Footprint">Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tca9546a.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&amp;ts=1688006167267&amp;ref_url=https%253A%252F%252Fwww.mouser.com%252F</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A0" type="input"/>
+        <pin num="2" name="A1" type="input"/>
+        <pin num="3" name="RESETN" type="input"/>
+        <pin num="4" name="SDA0" type="bidirectional"/>
+        <pin num="5" name="SCL0" type="bidirectional"/>
+        <pin num="6" name="SDA1" type="bidirectional"/>
+        <pin num="7" name="SCL1" type="bidirectional"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="SDA2" type="bidirectional"/>
+        <pin num="10" name="SCL2" type="bidirectional"/>
+        <pin num="11" name="SDA3" type="bidirectional"/>
+        <pin num="12" name="SCL3" type="bidirectional"/>
+        <pin num="13" name="A2" type="input"/>
+        <pin num="14" name="SCL" type="bidirectional"/>
+        <pin num="15" name="SDA" type="bidirectional"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Appreciate" part="TXS0104EPW">
+      <docs>https://www.ti.com/lit/ds/symlink/txs0104e.pdf?ts=1703693015299&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTXS0104E</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TXS0104EPW</field>
+        <field name="Footprint">Package_SO:TSSOP-14-1EP_4.4x5mm_P0.65mm</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/txs0104e.pdf?ts=1703693015299&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTXS0104E</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCCA" type="power_in"/>
+        <pin num="2" name="A1" type="tri_state"/>
+        <pin num="3" name="A2" type="tri_state"/>
+        <pin num="4" name="A3" type="tri_state"/>
+        <pin num="5" name="A4" type="tri_state"/>
+        <pin num="6" name="NC_1" type="no_connect"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="OE" type="input"/>
+        <pin num="9" name="NC_2" type="no_connect"/>
+        <pin num="10" name="B4" type="tri_state"/>
+        <pin num="11" name="B3" type="tri_state"/>
+        <pin num="12" name="B2" type="tri_state"/>
+        <pin num="13" name="B1" type="tri_state"/>
+        <pin num="14" name="VCCB" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Appreciate" part="UPR20e3">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">UPR20e3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="power_out"/>
+        <pin num="2" name="A" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Appreciate" part="Weewooday-820">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Weewooday-820</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN" type="input"/>
+        <pin num="2" name="VIN" type="power_in"/>
+        <pin num="3" name="GND" type="input"/>
+        <pin num="4" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Appreciate" part="conn_04_03">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">conn_04_03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S1" type="bidirectional"/>
+        <pin num="2" name="P1" type="power_out"/>
+        <pin num="3" name="G1" type="power_out"/>
+        <pin num="4" name="S2" type="bidirectional"/>
+        <pin num="5" name="P2" type="power_out"/>
+        <pin num="6" name="G2" type="power_out"/>
+        <pin num="7" name="S3" type="bidirectional"/>
+        <pin num="8" name="P3" type="power_out"/>
+        <pin num="9" name="G3" type="power_out"/>
+        <pin num="10" name="S4" type="bidirectional"/>
+        <pin num="11" name="P4" type="power_out"/>
+        <pin num="12" name="G4" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x03_Odd_Even">
+      <description>Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x03_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x05_Odd_Even">
+      <description>Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x05_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized_US">
+      <description>Polarized capacitor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Driver_LED" part="PCA9685PW">
+      <description>16-channel 12-bit PWM Fm+ I2C-bus LED controller RGBA TSSOP</description>
+      <docs>http://www.nxp.com/documents/data_sheet/PCA9685.pdf</docs>
+      <footprints>
+        <fp>TSSOP*4.4x9.7mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PCA9685PW</field>
+        <field name="Footprint">Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm</field>
+        <field name="Datasheet">http://www.nxp.com/documents/data_sheet/PCA9685.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A0" type="input"/>
+        <pin num="2" name="A1" type="input"/>
+        <pin num="3" name="A2" type="input"/>
+        <pin num="4" name="A3" type="input"/>
+        <pin num="5" name="A4" type="input"/>
+        <pin num="6" name="LED0" type="output"/>
+        <pin num="7" name="LED1" type="output"/>
+        <pin num="8" name="LED2" type="output"/>
+        <pin num="9" name="LED3" type="output"/>
+        <pin num="10" name="LED4" type="output"/>
+        <pin num="11" name="LED5" type="output"/>
+        <pin num="12" name="LED6" type="output"/>
+        <pin num="13" name="LED7" type="output"/>
+        <pin num="14" name="VSS" type="power_in"/>
+        <pin num="15" name="LED8" type="output"/>
+        <pin num="16" name="LED9" type="output"/>
+        <pin num="17" name="LED10" type="output"/>
+        <pin num="18" name="LED11" type="output"/>
+        <pin num="19" name="LED12" type="output"/>
+        <pin num="20" name="LED13" type="output"/>
+        <pin num="21" name="LED14" type="output"/>
+        <pin num="22" name="LED15" type="output"/>
+        <pin num="23" name="~{OE}" type="input"/>
+        <pin num="24" name="A5" type="input"/>
+        <pin num="25" name="EXTCLK" type="input"/>
+        <pin num="26" name="SCL" type="input"/>
+        <pin num="27" name="SDA" type="bidirectional"/>
+        <pin num="28" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED" part="WS2812B">
+      <description>RGB LED with integrated controller</description>
+      <docs>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</docs>
+      <footprints>
+        <fp>LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">WS2812B</field>
+        <field name="Footprint">LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</field>
+        <field name="Datasheet">https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="DOUT" type="output"/>
+        <pin num="3" name="VSS" type="power_in"/>
+        <pin num="4" name="DIN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="74xx">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//74xx.kicad_sym</uri>
+    </library>
+    <library logical="Appreciate">
+      <uri>/Users/smcmahon/Documents/KiCad/6.0/symbols/Appreciate.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Driver_LED">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Driver_LED.kicad_sym</uri>
+    </library>
+    <library logical="LED">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//LED.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Mechanical.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="D17" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D18" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D19" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D20" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D21" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D22" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D23" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D24" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J10" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J10" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J13" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U10" pin="5" pinfunction="V+" pintype="passive"/>
+      <node ref="U11" pin="14" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U12" pin="14" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U13" pin="1" pinfunction="A0" pintype="input"/>
+      <node ref="U13" pin="28" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U2" pin="36" pinfunction="3V3" pintype="power_in"/>
+      <node ref="U3" pin="36" pinfunction="3V3" pintype="power_in"/>
+      <node ref="U4" pin="28" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U5" pin="16" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U6" pin="2" pinfunction="3V3" pintype="power_in"/>
+      <node ref="U7" pin="1" pinfunction="VCCA" pintype="power_in"/>
+      <node ref="U8" pin="1" pinfunction="VCCA" pintype="power_in"/>
+      <node ref="U9" pin="5" pinfunction="V+" pintype="passive"/>
+      <node ref="X1" pin="2" pinfunction="V+" pintype="passive"/>
+      <node ref="X2" pin="2" pinfunction="V+" pintype="passive"/>
+      <node ref="X3" pin="2" pinfunction="V+" pintype="passive"/>
+      <node ref="X4" pin="2" pinfunction="V+" pintype="passive"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="J11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J9" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D" pintype="bidirectional"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="VOUT" pintype="power_out"/>
+    </net>
+    <net code="3" name="+12V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="C" pintype="power_out"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="VIN" pintype="power_in"/>
+    </net>
+    <net code="4" name="+BATT">
+      <node ref="D1" pin="2" pinfunction="A" pintype="power_in"/>
+      <node ref="J1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="5" name="/ADC0">
+      <node ref="D2" pin="1" pinfunction="CATHODE_1" pintype="passive"/>
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U10" pin="1" pinfunction="IN+" pintype="passive"/>
+    </net>
+    <net code="6" name="/ADC0_BUF">
+      <node ref="U10" pin="3" pinfunction="IN-" pintype="passive"/>
+      <node ref="U10" pin="4" pinfunction="OUT" pintype="passive"/>
+      <node ref="U2" pin="31" pinfunction="GP26/SDA1/ADC0" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/ADC1">
+      <node ref="D2" pin="2" pinfunction="CATHODE_2" pintype="passive"/>
+      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U9" pin="1" pinfunction="IN+" pintype="passive"/>
+    </net>
+    <net code="8" name="/ADC1_BUF">
+      <node ref="U2" pin="32" pinfunction="GP27/SCL1/ADC1" pintype="bidirectional"/>
+      <node ref="U9" pin="3" pinfunction="IN-" pintype="passive"/>
+      <node ref="U9" pin="4" pinfunction="OUT" pintype="passive"/>
+    </net>
+    <net code="9" name="/DIO0">
+      <node ref="U11" pin="9" pintype="input"/>
+      <node ref="U2" pin="1" pinfunction="GP0/U0TX/SDA0/MISO0" pintype="bidirectional"/>
+      <node ref="U7" pin="5" pinfunction="A4" pintype="tri_state"/>
+    </net>
+    <net code="10" name="/DIO0_LS">
+      <node ref="D4" pin="1" pinfunction="CATHODE_1" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="S1" pintype="bidirectional"/>
+      <node ref="U7" pin="10" pinfunction="B4" pintype="tri_state"/>
+    </net>
+    <net code="11" name="/DIO1">
+      <node ref="U11" pin="5" pintype="input"/>
+      <node ref="U2" pin="2" pinfunction="GP1/U0RX/SCL0/CSn0" pintype="bidirectional"/>
+      <node ref="U7" pin="4" pinfunction="A3" pintype="tri_state"/>
+    </net>
+    <net code="12" name="/DIO1_LS">
+      <node ref="D4" pin="2" pinfunction="CATHODE_2" pintype="passive"/>
+      <node ref="J7" pin="4" pinfunction="S2" pintype="bidirectional"/>
+      <node ref="U7" pin="11" pinfunction="B3" pintype="tri_state"/>
+    </net>
+    <net code="13" name="/DIO2">
+      <node ref="U11" pin="3" pintype="input"/>
+      <node ref="U2" pin="9" pinfunction="GP6/SDA1/SCK0" pintype="bidirectional"/>
+      <node ref="U7" pin="3" pinfunction="A2" pintype="tri_state"/>
+    </net>
+    <net code="14" name="/DIO2_LS">
+      <node ref="D5" pin="1" pinfunction="CATHODE_1" pintype="passive"/>
+      <node ref="J7" pin="7" pinfunction="S3" pintype="bidirectional"/>
+      <node ref="U7" pin="12" pinfunction="B2" pintype="tri_state"/>
+    </net>
+    <net code="15" name="/DIO3">
+      <node ref="U11" pin="1" pintype="input"/>
+      <node ref="U2" pin="10" pinfunction="GP7/SCL1/MOSI0" pintype="bidirectional"/>
+      <node ref="U7" pin="2" pinfunction="A1" pintype="tri_state"/>
+    </net>
+    <net code="16" name="/DIO3_LS">
+      <node ref="D5" pin="2" pinfunction="CATHODE_2" pintype="passive"/>
+      <node ref="J7" pin="10" pinfunction="S4" pintype="bidirectional"/>
+      <node ref="U7" pin="13" pinfunction="B1" pintype="tri_state"/>
+    </net>
+    <net code="17" name="/DIO4">
+      <node ref="U12" pin="9" pintype="input"/>
+      <node ref="U2" pin="11" pinfunction="GP8/U1TX/SDA0/MISO1" pintype="bidirectional"/>
+      <node ref="U8" pin="5" pinfunction="A4" pintype="tri_state"/>
+    </net>
+    <net code="18" name="/DIO4_LS">
+      <node ref="D6" pin="1" pinfunction="CATHODE_1" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="S1" pintype="bidirectional"/>
+      <node ref="U8" pin="10" pinfunction="B4" pintype="tri_state"/>
+    </net>
+    <net code="19" name="/DIO5">
+      <node ref="U12" pin="5" pintype="input"/>
+      <node ref="U2" pin="12" pinfunction="GP9/U1RX/SCL0/CSn1" pintype="bidirectional"/>
+      <node ref="U8" pin="4" pinfunction="A3" pintype="tri_state"/>
+    </net>
+    <net code="20" name="/DIO5_LS">
+      <node ref="D6" pin="2" pinfunction="CATHODE_2" pintype="passive"/>
+      <node ref="J8" pin="4" pinfunction="S2" pintype="bidirectional"/>
+      <node ref="U8" pin="11" pinfunction="B3" pintype="tri_state"/>
+    </net>
+    <net code="21" name="/DIO6">
+      <node ref="U12" pin="3" pintype="input"/>
+      <node ref="U2" pin="14" pinfunction="GP10/SDA1/SCK1" pintype="bidirectional"/>
+      <node ref="U8" pin="3" pinfunction="A2" pintype="tri_state"/>
+    </net>
+    <net code="22" name="/DIO6_LS">
+      <node ref="D7" pin="1" pinfunction="CATHODE_1" pintype="passive"/>
+      <node ref="J8" pin="7" pinfunction="S3" pintype="bidirectional"/>
+      <node ref="U8" pin="12" pinfunction="B2" pintype="tri_state"/>
+    </net>
+    <net code="23" name="/DIO7">
+      <node ref="U12" pin="1" pintype="input"/>
+      <node ref="U2" pin="15" pinfunction="GP11/SCL1/MOSI1" pintype="bidirectional"/>
+      <node ref="U8" pin="2" pinfunction="A1" pintype="tri_state"/>
+    </net>
+    <net code="24" name="/DIO7_LS">
+      <node ref="D7" pin="2" pinfunction="CATHODE_2" pintype="passive"/>
+      <node ref="J8" pin="10" pinfunction="S4" pintype="bidirectional"/>
+      <node ref="U8" pin="13" pinfunction="B1" pintype="tri_state"/>
+    </net>
+    <net code="25" name="/DIO_EN">
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U2" pin="19" pinfunction="GP14/SDA1/SCK1" pintype="bidirectional"/>
+      <node ref="U7" pin="8" pinfunction="OE" pintype="input"/>
+      <node ref="U8" pin="8" pinfunction="OE" pintype="input"/>
+    </net>
+    <net code="26" name="/ETHSPI_CS">
+      <node ref="U2" pin="20" pinfunction="GP15/SCL1/MOSI1" pintype="bidirectional"/>
+      <node ref="U6" pin="22" pinfunction="CSn" pintype="input"/>
+    </net>
+    <net code="27" name="/M0_IN1">
+      <node ref="J13" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U13" pin="6" pinfunction="LED0" pintype="output"/>
+    </net>
+    <net code="28" name="/M0_IN2">
+      <node ref="J13" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U13" pin="7" pinfunction="LED1" pintype="output"/>
+    </net>
+    <net code="29" name="/M1_IN1">
+      <node ref="J13" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U13" pin="8" pinfunction="LED2" pintype="output"/>
+    </net>
+    <net code="30" name="/M1_IN2">
+      <node ref="J13" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U13" pin="9" pinfunction="LED3" pintype="output"/>
+    </net>
+    <net code="31" name="/M2_IN1">
+      <node ref="J13" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U13" pin="10" pinfunction="LED4" pintype="output"/>
+    </net>
+    <net code="32" name="/M2_IN2">
+      <node ref="J13" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U13" pin="11" pinfunction="LED5" pintype="output"/>
+    </net>
+    <net code="33" name="/M3_IN1">
+      <node ref="J13" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="U13" pin="12" pinfunction="LED6" pintype="output"/>
+    </net>
+    <net code="34" name="/M3_IN2">
+      <node ref="J13" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="U13" pin="13" pinfunction="LED7" pintype="output"/>
+    </net>
+    <net code="35" name="/NEOPIXEL">
+      <node ref="J3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="29" pinfunction="GP22" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="/NEOPIXEL_BRD">
+      <node ref="D3" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="U2" pin="22" pinfunction="GP17/U0RX/SCL0/CSn0" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="/PICOWBELL_CS">
+      <node ref="U2" pin="26" pinfunction="GP20/SDA0" pintype="bidirectional"/>
+      <node ref="U3" pin="26" pinfunction="GP20/CAN_CS" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="/PICOWBELL_INT">
+      <node ref="U2" pin="27" pinfunction="GP21/SCL0" pintype="bidirectional"/>
+      <node ref="U3" pin="27" pinfunction="GP21/CAN_INT" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="/PICOWBELL_MISO">
+      <node ref="U2" pin="21" pinfunction="GP16/U0TX/SDA0/MISO0" pintype="bidirectional"/>
+      <node ref="U3" pin="21" pinfunction="GP16/MISO0" pintype="bidirectional"/>
+      <node ref="U6" pin="13" pinfunction="MISO" pintype="output"/>
+    </net>
+    <net code="40" name="/PICOWBELL_MOSI">
+      <node ref="U2" pin="25" pinfunction="GP19/SCL1/MOSI0" pintype="bidirectional"/>
+      <node ref="U3" pin="25" pinfunction="GP19/MOSI0" pintype="bidirectional"/>
+      <node ref="U6" pin="12" pinfunction="MOSI" pintype="input"/>
+    </net>
+    <net code="41" name="/PICOWBELL_SCK">
+      <node ref="U2" pin="24" pinfunction="GP18/SDA1/SCK0" pintype="bidirectional"/>
+      <node ref="U3" pin="24" pinfunction="GP18/SCK0" pintype="bidirectional"/>
+      <node ref="U6" pin="11" pinfunction="SCK" pintype="input"/>
+    </net>
+    <net code="42" name="/PWM0">
+      <node ref="D10" pin="1" pinfunction="CATHODE_1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="S1" pintype="bidirectional"/>
+      <node ref="U4" pin="6" pinfunction="LED0" pintype="output"/>
+    </net>
+    <net code="43" name="/PWM1">
+      <node ref="D10" pin="2" pinfunction="CATHODE_2" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="S2" pintype="bidirectional"/>
+      <node ref="U4" pin="7" pinfunction="LED1" pintype="output"/>
+    </net>
+    <net code="44" name="/PWM2">
+      <node ref="D11" pin="1" pinfunction="CATHODE_1" pintype="passive"/>
+      <node ref="J2" pin="7" pinfunction="S3" pintype="bidirectional"/>
+      <node ref="U4" pin="8" pinfunction="LED2" pintype="output"/>
+    </net>
+    <net code="45" name="/PWM3">
+      <node ref="D11" pin="2" pinfunction="CATHODE_2" pintype="passive"/>
+      <node ref="J2" pin="10" pinfunction="S4" pintype="bidirectional"/>
+      <node ref="U4" pin="9" pinfunction="LED3" pintype="output"/>
+    </net>
+    <net code="46" name="/PWM4">
+      <node ref="D9" pin="1" pinfunction="CATHODE_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="S1" pintype="bidirectional"/>
+      <node ref="U4" pin="10" pinfunction="LED4" pintype="output"/>
+    </net>
+    <net code="47" name="/PWM5">
+      <node ref="D9" pin="2" pinfunction="CATHODE_2" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="S2" pintype="bidirectional"/>
+      <node ref="U4" pin="11" pinfunction="LED5" pintype="output"/>
+    </net>
+    <net code="48" name="/PWM6">
+      <node ref="D8" pin="1" pinfunction="CATHODE_1" pintype="passive"/>
+      <node ref="J4" pin="7" pinfunction="S3" pintype="bidirectional"/>
+      <node ref="U4" pin="12" pinfunction="LED6" pintype="output"/>
+    </net>
+    <net code="49" name="/PWM7">
+      <node ref="D8" pin="2" pinfunction="CATHODE_2" pintype="passive"/>
+      <node ref="J4" pin="10" pinfunction="S4" pintype="bidirectional"/>
+      <node ref="U4" pin="13" pinfunction="LED7" pintype="output"/>
+    </net>
+    <net code="50" name="/PWM_OEn">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U13" pin="23" pinfunction="~{OE}" pintype="input"/>
+      <node ref="U2" pin="16" pinfunction="GP12/U0TX/SDA0/MISO1" pintype="bidirectional"/>
+      <node ref="U4" pin="23" pinfunction="~{OE}" pintype="input"/>
+    </net>
+    <net code="51" name="/RESETn">
+      <node ref="S1" pin="1" pinfunction="NO_1" pintype="passive"/>
+      <node ref="S1" pin="2" pinfunction="NO_2" pintype="passive"/>
+      <node ref="U2" pin="30" pinfunction="RUNn" pintype="input"/>
+    </net>
+    <net code="52" name="/SERVO_VDD">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="J12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J2" pin="11" pinfunction="P4" pintype="power_out"/>
+      <node ref="J2" pin="2" pinfunction="P1" pintype="power_out"/>
+      <node ref="J2" pin="5" pinfunction="P2" pintype="power_out"/>
+      <node ref="J2" pin="8" pinfunction="P3" pintype="power_out"/>
+      <node ref="J4" pin="11" pinfunction="P4" pintype="power_out"/>
+      <node ref="J4" pin="2" pinfunction="P1" pintype="power_out"/>
+      <node ref="J4" pin="5" pinfunction="P2" pintype="power_out"/>
+      <node ref="J4" pin="8" pinfunction="P3" pintype="power_out"/>
+    </net>
+    <net code="53" name="/ST_SCL0">
+      <node ref="D12" pin="2" pinfunction="CATHODE_2" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="SCL0" pintype="bidirectional"/>
+      <node ref="X1" pin="4" pinfunction="SCL" pintype="bidirectional"/>
+    </net>
+    <net code="54" name="/ST_SCL1">
+      <node ref="D13" pin="2" pinfunction="CATHODE_2" pintype="passive"/>
+      <node ref="U5" pin="7" pinfunction="SCL1" pintype="bidirectional"/>
+      <node ref="X2" pin="4" pinfunction="SCL" pintype="bidirectional"/>
+    </net>
+    <net code="55" name="/ST_SCL2">
+      <node ref="D14" pin="2" pinfunction="CATHODE_2" pintype="passive"/>
+      <node ref="U5" pin="10" pinfunction="SCL2" pintype="bidirectional"/>
+      <node ref="X4" pin="4" pinfunction="SCL" pintype="bidirectional"/>
+    </net>
+    <net code="56" name="/ST_SCL3">
+      <node ref="D15" pin="2" pinfunction="CATHODE_2" pintype="passive"/>
+      <node ref="U5" pin="12" pinfunction="SCL3" pintype="bidirectional"/>
+      <node ref="X3" pin="4" pinfunction="SCL" pintype="bidirectional"/>
+    </net>
+    <net code="57" name="/ST_SDA0">
+      <node ref="D12" pin="1" pinfunction="CATHODE_1" pintype="passive"/>
+      <node ref="U5" pin="4" pinfunction="SDA0" pintype="bidirectional"/>
+      <node ref="X1" pin="3" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="58" name="/ST_SDA1">
+      <node ref="D13" pin="1" pinfunction="CATHODE_1" pintype="passive"/>
+      <node ref="U5" pin="6" pinfunction="SDA1" pintype="bidirectional"/>
+      <node ref="X2" pin="3" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="59" name="/ST_SDA2">
+      <node ref="D14" pin="1" pinfunction="CATHODE_1" pintype="passive"/>
+      <node ref="U5" pin="9" pinfunction="SDA2" pintype="bidirectional"/>
+      <node ref="X4" pin="3" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="60" name="/ST_SDA3">
+      <node ref="D15" pin="1" pinfunction="CATHODE_1" pintype="passive"/>
+      <node ref="U5" pin="11" pinfunction="SDA3" pintype="bidirectional"/>
+      <node ref="X3" pin="3" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="61" name="/SWITCH_RESETN">
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U2" pin="17" pinfunction="GP13/U0RX/SCL0/CSn1" pintype="bidirectional"/>
+      <node ref="U5" pin="3" pinfunction="RESETN" pintype="input"/>
+    </net>
+    <net code="62" name="/SWITCH_SCL0">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U13" pin="26" pinfunction="SCL" pintype="input"/>
+      <node ref="U2" pin="7" pinfunction="GP5/U1RX/SCL0/CSn0" pintype="bidirectional"/>
+      <node ref="U4" pin="26" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="63" name="/SWITCH_SCL1">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="GP3/SCL1/MOSI0" pintype="bidirectional"/>
+      <node ref="U5" pin="14" pinfunction="SCL" pintype="bidirectional"/>
+    </net>
+    <net code="64" name="/SWITCH_SDA0">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U13" pin="27" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="U2" pin="6" pinfunction="GP4/U1TX/SDA0/MISO" pintype="bidirectional"/>
+      <node ref="U4" pin="27" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="65" name="/SWITCH_SDA1">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="GP2/SDA1/SCK0" pintype="bidirectional"/>
+      <node ref="U5" pin="15" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="66" name="/VIOA">
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J7" pin="11" pinfunction="P4" pintype="power_out"/>
+      <node ref="J7" pin="2" pinfunction="P1" pintype="power_out"/>
+      <node ref="J7" pin="5" pinfunction="P2" pintype="power_out"/>
+      <node ref="J7" pin="8" pinfunction="P3" pintype="power_out"/>
+      <node ref="U7" pin="14" pinfunction="VCCB" pintype="power_in"/>
+    </net>
+    <net code="67" name="/VIOB">
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="J8" pin="11" pinfunction="P4" pintype="power_out"/>
+      <node ref="J8" pin="2" pinfunction="P1" pintype="power_out"/>
+      <node ref="J8" pin="5" pinfunction="P2" pintype="power_out"/>
+      <node ref="J8" pin="8" pinfunction="P3" pintype="power_out"/>
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U8" pin="14" pinfunction="VCCB" pintype="power_in"/>
+    </net>
+    <net code="68" name="/VSYS">
+      <node ref="Q1" pin="2" pinfunction="S" pintype="bidirectional"/>
+      <node ref="U2" pin="39" pinfunction="VSYS" pintype="power_in"/>
+    </net>
+    <net code="69" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D10" pin="3" pinfunction="_COMMON_CATHODE" pintype="passive"/>
+      <node ref="D11" pin="3" pinfunction="_COMMON_CATHODE" pintype="passive"/>
+      <node ref="D12" pin="3" pinfunction="_COMMON_CATHODE" pintype="passive"/>
+      <node ref="D13" pin="3" pinfunction="_COMMON_CATHODE" pintype="passive"/>
+      <node ref="D14" pin="3" pinfunction="_COMMON_CATHODE" pintype="passive"/>
+      <node ref="D15" pin="3" pinfunction="_COMMON_CATHODE" pintype="passive"/>
+      <node ref="D16" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="3" pinfunction="_COMMON_CATHODE" pintype="passive"/>
+      <node ref="D3" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="D4" pin="3" pinfunction="_COMMON_CATHODE" pintype="passive"/>
+      <node ref="D5" pin="3" pinfunction="_COMMON_CATHODE" pintype="passive"/>
+      <node ref="D6" pin="3" pinfunction="_COMMON_CATHODE" pintype="passive"/>
+      <node ref="D7" pin="3" pinfunction="_COMMON_CATHODE" pintype="passive"/>
+      <node ref="D8" pin="3" pinfunction="_COMMON_CATHODE" pintype="passive"/>
+      <node ref="D9" pin="3" pinfunction="_COMMON_CATHODE" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J10" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J10" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J11" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J12" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J13" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="12" pinfunction="G4" pintype="power_out"/>
+      <node ref="J2" pin="3" pinfunction="G1" pintype="power_out"/>
+      <node ref="J2" pin="6" pinfunction="G2" pintype="power_out"/>
+      <node ref="J2" pin="9" pinfunction="G3" pintype="power_out"/>
+      <node ref="J3" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J4" pin="12" pinfunction="G4" pintype="power_out"/>
+      <node ref="J4" pin="3" pinfunction="G1" pintype="power_out"/>
+      <node ref="J4" pin="6" pinfunction="G2" pintype="power_out"/>
+      <node ref="J4" pin="9" pinfunction="G3" pintype="power_out"/>
+      <node ref="J7" pin="12" pinfunction="G4" pintype="power_out"/>
+      <node ref="J7" pin="3" pinfunction="G1" pintype="power_out"/>
+      <node ref="J7" pin="6" pinfunction="G2" pintype="power_out"/>
+      <node ref="J7" pin="9" pinfunction="G3" pintype="power_out"/>
+      <node ref="J8" pin="12" pinfunction="G4" pintype="power_out"/>
+      <node ref="J8" pin="3" pinfunction="G1" pintype="power_out"/>
+      <node ref="J8" pin="6" pinfunction="G2" pintype="power_out"/>
+      <node ref="J8" pin="9" pinfunction="G3" pintype="power_out"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="S1" pin="3" pinfunction="COM_1" pintype="passive"/>
+      <node ref="S1" pin="4" pinfunction="COM_2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="GND" pintype="input"/>
+      <node ref="U10" pin="2" pinfunction="V-" pintype="passive"/>
+      <node ref="U11" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U12" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U13" pin="14" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U13" pin="2" pinfunction="A1" pintype="input"/>
+      <node ref="U13" pin="24" pinfunction="A5" pintype="input"/>
+      <node ref="U13" pin="25" pinfunction="EXTCLK" pintype="input"/>
+      <node ref="U13" pin="3" pinfunction="A2" pintype="input"/>
+      <node ref="U13" pin="4" pinfunction="A3" pintype="input"/>
+      <node ref="U13" pin="5" pinfunction="A4" pintype="input"/>
+      <node ref="U2" pin="13" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="18" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="23" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="28" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="33" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="38" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="13" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="18" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="23" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="28" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="33" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="38" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="1" pinfunction="A0" pintype="input"/>
+      <node ref="U4" pin="14" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U4" pin="2" pinfunction="A1" pintype="input"/>
+      <node ref="U4" pin="24" pinfunction="A5" pintype="input"/>
+      <node ref="U4" pin="25" pinfunction="EXTCLK" pintype="input"/>
+      <node ref="U4" pin="3" pinfunction="A2" pintype="input"/>
+      <node ref="U4" pin="4" pinfunction="A3" pintype="input"/>
+      <node ref="U4" pin="5" pinfunction="A4" pintype="input"/>
+      <node ref="U5" pin="1" pinfunction="A0" pintype="input"/>
+      <node ref="U5" pin="13" pinfunction="A2" pintype="input"/>
+      <node ref="U5" pin="2" pinfunction="A1" pintype="input"/>
+      <node ref="U5" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U8" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="2" pinfunction="V-" pintype="passive"/>
+      <node ref="X1" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="X1" pin="MP" pinfunction="MP" pintype="passive"/>
+      <node ref="X2" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="X2" pin="MP" pinfunction="MP" pintype="passive"/>
+      <node ref="X3" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="X3" pin="MP" pinfunction="MP" pintype="passive"/>
+      <node ref="X4" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="X4" pin="MP" pinfunction="MP" pintype="passive"/>
+    </net>
+    <net code="70" name="Net-(D16-Pad2)">
+      <node ref="D16" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="71" name="Net-(D17-Pad1)">
+      <node ref="D17" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+    </net>
+    <net code="72" name="Net-(D18-Pad1)">
+      <node ref="D18" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+    </net>
+    <net code="73" name="Net-(D19-Pad1)">
+      <node ref="D19" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+    </net>
+    <net code="74" name="Net-(D20-Pad1)">
+      <node ref="D20" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+    </net>
+    <net code="75" name="Net-(D21-Pad1)">
+      <node ref="D21" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+    </net>
+    <net code="76" name="Net-(D22-Pad1)">
+      <node ref="D22" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+    </net>
+    <net code="77" name="Net-(D23-Pad1)">
+      <node ref="D23" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+    </net>
+    <net code="78" name="Net-(D24-Pad1)">
+      <node ref="D24" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+    </net>
+    <net code="79" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="80" name="Net-(R10-Pad1)">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="U11" pin="2" pintype="output"/>
+    </net>
+    <net code="81" name="Net-(R11-Pad1)">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="U12" pin="2" pintype="output"/>
+    </net>
+    <net code="82" name="Net-(R12-Pad1)">
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U12" pin="4" pintype="output"/>
+    </net>
+    <net code="83" name="Net-(R13-Pad1)">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U12" pin="6" pintype="output"/>
+    </net>
+    <net code="84" name="Net-(R14-Pad1)">
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U12" pin="8" pintype="output"/>
+    </net>
+    <net code="85" name="Net-(R15-Pad1)">
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="U11" pin="4" pintype="output"/>
+    </net>
+    <net code="86" name="Net-(R16-Pad1)">
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="U11" pin="6" pintype="output"/>
+    </net>
+    <net code="87" name="Net-(R17-Pad1)">
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="U11" pin="8" pintype="output"/>
+    </net>
+    <net code="88" name="VBUS">
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="G" pintype="bidirectional"/>
+      <node ref="U2" pin="40" pinfunction="VBUS" pintype="power_in"/>
+      <node ref="U3" pin="40" pinfunction="VBUS" pintype="power_in"/>
+    </net>
+    <net code="89" name="unconnected-(D3-Pad2)">
+      <node ref="D3" pin="2" pinfunction="DOUT" pintype="output+no_connect"/>
+    </net>
+    <net code="90" name="unconnected-(H1-Pad1)">
+      <node ref="H1" pin="1" pinfunction="1" pintype="input+no_connect"/>
+    </net>
+    <net code="91" name="unconnected-(H2-Pad1)">
+      <node ref="H2" pin="1" pinfunction="1" pintype="input+no_connect"/>
+    </net>
+    <net code="92" name="unconnected-(H3-Pad1)">
+      <node ref="H3" pin="1" pinfunction="1" pintype="input+no_connect"/>
+    </net>
+    <net code="93" name="unconnected-(H4-Pad1)">
+      <node ref="H4" pin="1" pinfunction="1" pintype="input+no_connect"/>
+    </net>
+    <net code="94" name="unconnected-(U2-Pad34)">
+      <node ref="U2" pin="34" pinfunction="GP28/ADC2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="95" name="unconnected-(U2-Pad35)">
+      <node ref="U2" pin="35" pinfunction="ADC_VREF" pintype="input+no_connect"/>
+    </net>
+    <net code="96" name="unconnected-(U2-Pad37)">
+      <node ref="U2" pin="37" pinfunction="3V3_EN" pintype="input+no_connect"/>
+    </net>
+    <net code="97" name="unconnected-(U3-Pad1)">
+      <node ref="U3" pin="1" pinfunction="GP0/NC9" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="98" name="unconnected-(U3-Pad2)">
+      <node ref="U3" pin="2" pinfunction="GP1/NC1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="99" name="unconnected-(U3-Pad4)">
+      <node ref="U3" pin="4" pinfunction="GP2/NC2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="100" name="unconnected-(U3-Pad5)">
+      <node ref="U3" pin="5" pinfunction="GP3/NC3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="101" name="unconnected-(U3-Pad6)">
+      <node ref="U3" pin="6" pinfunction="GP4/NC4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="102" name="unconnected-(U3-Pad7)">
+      <node ref="U3" pin="7" pinfunction="GP5/NC5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="103" name="unconnected-(U3-Pad9)">
+      <node ref="U3" pin="9" pinfunction="GP6/NC6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="104" name="unconnected-(U3-Pad10)">
+      <node ref="U3" pin="10" pinfunction="GP7/NC7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="105" name="unconnected-(U3-Pad11)">
+      <node ref="U3" pin="11" pinfunction="GP8/NC8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="106" name="unconnected-(U3-Pad12)">
+      <node ref="U3" pin="12" pinfunction="GP9/NC9" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="107" name="unconnected-(U3-Pad14)">
+      <node ref="U3" pin="14" pinfunction="GP10/NC10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="108" name="unconnected-(U3-Pad15)">
+      <node ref="U3" pin="15" pinfunction="GP11/NC11" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="109" name="unconnected-(U3-Pad16)">
+      <node ref="U3" pin="16" pinfunction="GP12/NC12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="110" name="unconnected-(U3-Pad17)">
+      <node ref="U3" pin="17" pinfunction="GP13/NC13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="111" name="unconnected-(U3-Pad19)">
+      <node ref="U3" pin="19" pinfunction="GP14/NC14" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="112" name="unconnected-(U3-Pad20)">
+      <node ref="U3" pin="20" pinfunction="GP15/NC15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="113" name="unconnected-(U3-Pad22)">
+      <node ref="U3" pin="22" pinfunction="GP17/U0RX/SCL0/CSn0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="114" name="unconnected-(U3-Pad29)">
+      <node ref="U3" pin="29" pinfunction="GP22/NC22" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="115" name="unconnected-(U3-Pad30)">
+      <node ref="U3" pin="30" pinfunction="RUNn" pintype="input+no_connect"/>
+    </net>
+    <net code="116" name="unconnected-(U3-Pad31)">
+      <node ref="U3" pin="31" pinfunction="GP26/NC26" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="117" name="unconnected-(U3-Pad32)">
+      <node ref="U3" pin="32" pinfunction="GP27/NC27" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="118" name="unconnected-(U3-Pad34)">
+      <node ref="U3" pin="34" pinfunction="GP28/NC28" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="119" name="unconnected-(U3-Pad35)">
+      <node ref="U3" pin="35" pinfunction="ADC_VREF" pintype="input+no_connect"/>
+    </net>
+    <net code="120" name="unconnected-(U3-Pad37)">
+      <node ref="U3" pin="37" pinfunction="3V3_EN" pintype="input+no_connect"/>
+    </net>
+    <net code="121" name="unconnected-(U3-Pad39)">
+      <node ref="U3" pin="39" pinfunction="VSYS" pintype="power_in+no_connect"/>
+    </net>
+    <net code="122" name="unconnected-(U4-Pad15)">
+      <node ref="U4" pin="15" pinfunction="LED8" pintype="output+no_connect"/>
+    </net>
+    <net code="123" name="unconnected-(U4-Pad16)">
+      <node ref="U4" pin="16" pinfunction="LED9" pintype="output+no_connect"/>
+    </net>
+    <net code="124" name="unconnected-(U4-Pad17)">
+      <node ref="U4" pin="17" pinfunction="LED10" pintype="output+no_connect"/>
+    </net>
+    <net code="125" name="unconnected-(U4-Pad18)">
+      <node ref="U4" pin="18" pinfunction="LED11" pintype="output+no_connect"/>
+    </net>
+    <net code="126" name="unconnected-(U4-Pad19)">
+      <node ref="U4" pin="19" pinfunction="LED12" pintype="output+no_connect"/>
+    </net>
+    <net code="127" name="unconnected-(U4-Pad20)">
+      <node ref="U4" pin="20" pinfunction="LED13" pintype="output+no_connect"/>
+    </net>
+    <net code="128" name="unconnected-(U4-Pad21)">
+      <node ref="U4" pin="21" pinfunction="LED14" pintype="output+no_connect"/>
+    </net>
+    <net code="129" name="unconnected-(U4-Pad22)">
+      <node ref="U4" pin="22" pinfunction="LED15" pintype="output+no_connect"/>
+    </net>
+    <net code="130" name="unconnected-(U6-Pad1)">
+      <node ref="U6" pin="1" pinfunction="RESETn" pintype="input+no_connect"/>
+    </net>
+    <net code="131" name="unconnected-(U6-Pad3)">
+      <node ref="U6" pin="3" pinfunction="AREF" pintype="input+no_connect"/>
+    </net>
+    <net code="132" name="unconnected-(U6-Pad5)">
+      <node ref="U6" pin="5" pinfunction="GPIOA0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="133" name="unconnected-(U6-Pad6)">
+      <node ref="U6" pin="6" pinfunction="GPIOA1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="134" name="unconnected-(U6-Pad7)">
+      <node ref="U6" pin="7" pinfunction="GPIOA2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="135" name="unconnected-(U6-Pad8)">
+      <node ref="U6" pin="8" pinfunction="GPIOA3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="136" name="unconnected-(U6-Pad9)">
+      <node ref="U6" pin="9" pinfunction="GPIOA4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="137" name="unconnected-(U6-Pad10)">
+      <node ref="U6" pin="10" pinfunction="GPIOA5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="138" name="unconnected-(U6-Pad14)">
+      <node ref="U6" pin="14" pinfunction="GPIORX" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="139" name="unconnected-(U6-Pad15)">
+      <node ref="U6" pin="15" pinfunction="GPIOTX" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="140" name="unconnected-(U6-Pad16)">
+      <node ref="U6" pin="16" pinfunction="NC" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="141" name="unconnected-(U6-Pad17)">
+      <node ref="U6" pin="17" pinfunction="GPIOSDA" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="142" name="unconnected-(U6-Pad18)">
+      <node ref="U6" pin="18" pinfunction="GPIOSCL" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="143" name="unconnected-(U6-Pad19)">
+      <node ref="U6" pin="19" pinfunction="GPIOD5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="144" name="unconnected-(U6-Pad20)">
+      <node ref="U6" pin="20" pinfunction="GPIOD6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="145" name="unconnected-(U6-Pad21)">
+      <node ref="U6" pin="21" pinfunction="GPIOD9" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="146" name="unconnected-(U6-Pad23)">
+      <node ref="U6" pin="23" pinfunction="GPIOD11" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="147" name="unconnected-(U6-Pad24)">
+      <node ref="U6" pin="24" pinfunction="GPIOD12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="148" name="unconnected-(U6-Pad25)">
+      <node ref="U6" pin="25" pinfunction="GPIOD13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="149" name="unconnected-(U6-Pad26)">
+      <node ref="U6" pin="26" pinfunction="USB" pintype="power_in+no_connect"/>
+    </net>
+    <net code="150" name="unconnected-(U6-Pad27)">
+      <node ref="U6" pin="27" pinfunction="EN" pintype="input+no_connect"/>
+    </net>
+    <net code="151" name="unconnected-(U6-Pad28)">
+      <node ref="U6" pin="28" pinfunction="VBAT" pintype="power_in+no_connect"/>
+    </net>
+    <net code="152" name="unconnected-(U7-Pad6)">
+      <node ref="U7" pin="6" pinfunction="NC_1" pintype="no_connect"/>
+    </net>
+    <net code="153" name="unconnected-(U7-Pad9)">
+      <node ref="U7" pin="9" pinfunction="NC_2" pintype="no_connect"/>
+    </net>
+    <net code="154" name="unconnected-(U8-Pad6)">
+      <node ref="U8" pin="6" pinfunction="NC_1" pintype="no_connect"/>
+    </net>
+    <net code="155" name="unconnected-(U8-Pad9)">
+      <node ref="U8" pin="9" pinfunction="NC_2" pintype="no_connect"/>
+    </net>
+    <net code="156" name="unconnected-(U11-Pad10)">
+      <node ref="U11" pin="10" pintype="output+no_connect"/>
+    </net>
+    <net code="157" name="unconnected-(U11-Pad11)">
+      <node ref="U11" pin="11" pintype="input+no_connect"/>
+    </net>
+    <net code="158" name="unconnected-(U11-Pad12)">
+      <node ref="U11" pin="12" pintype="output+no_connect"/>
+    </net>
+    <net code="159" name="unconnected-(U11-Pad13)">
+      <node ref="U11" pin="13" pintype="input+no_connect"/>
+    </net>
+    <net code="160" name="unconnected-(U12-Pad10)">
+      <node ref="U12" pin="10" pintype="output+no_connect"/>
+    </net>
+    <net code="161" name="unconnected-(U12-Pad11)">
+      <node ref="U12" pin="11" pintype="input+no_connect"/>
+    </net>
+    <net code="162" name="unconnected-(U12-Pad12)">
+      <node ref="U12" pin="12" pintype="output+no_connect"/>
+    </net>
+    <net code="163" name="unconnected-(U12-Pad13)">
+      <node ref="U12" pin="13" pintype="input+no_connect"/>
+    </net>
+    <net code="164" name="unconnected-(U13-Pad15)">
+      <node ref="U13" pin="15" pinfunction="LED8" pintype="output+no_connect"/>
+    </net>
+    <net code="165" name="unconnected-(U13-Pad16)">
+      <node ref="U13" pin="16" pinfunction="LED9" pintype="output+no_connect"/>
+    </net>
+    <net code="166" name="unconnected-(U13-Pad17)">
+      <node ref="U13" pin="17" pinfunction="LED10" pintype="output+no_connect"/>
+    </net>
+    <net code="167" name="unconnected-(U13-Pad18)">
+      <node ref="U13" pin="18" pinfunction="LED11" pintype="output+no_connect"/>
+    </net>
+    <net code="168" name="unconnected-(U13-Pad19)">
+      <node ref="U13" pin="19" pinfunction="LED12" pintype="output+no_connect"/>
+    </net>
+    <net code="169" name="unconnected-(U13-Pad20)">
+      <node ref="U13" pin="20" pinfunction="LED13" pintype="output+no_connect"/>
+    </net>
+    <net code="170" name="unconnected-(U13-Pad21)">
+      <node ref="U13" pin="21" pinfunction="LED14" pintype="output+no_connect"/>
+    </net>
+    <net code="171" name="unconnected-(U13-Pad22)">
+      <node ref="U13" pin="22" pinfunction="LED15" pintype="output+no_connect"/>
+    </net>
+  </nets>
+</export>
