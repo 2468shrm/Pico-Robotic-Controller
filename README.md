@@ -422,6 +422,7 @@ The power system has the following components:
 - +BATT - The main power supply (+BATT) is connected to J1, a 2-position WAGO 250 series connector. The typical use is a 12V battery or power supply.
 - +12V - Connected to +BATT through a diode-capacitor filter. The intent of the filter is to avoid brownouts on the robot from affecting board performance.
 - +5V - The Pico W uses a 5V source normally supplied by USB's VBUS. However, the board provides a 5V source. This is done via either installing a 5V 3A regulator module ([Amazon Link](https://www.amazon.com/gp/product/B08JZ5FVLC)), or by installing a 2-position WAGO 250-series connector (J11) and providing an external 5V supply.  The external solution would be used only in situations where 3A is insufficient (e.g. a very long NEOPIXEL strip).
+- SERVO_VDD - A dedicated power input is provided for use cases involving servo motors. This is required since the +5V supply is limited to 3A which may not be sufficient for servo motors in stall. Moreover, while servo motors may operate at 5V, they're better at operating at higher voltages (6V).
 - VSYS - VSYS is a pin on the Pico W board that is sourced from VBUS through a Schottky diode, but this is only functional when the VBUS is connected.  VSYS is also soured by a PFET (Q1, a DMG2305UX-13) as recommended by the Pico W datasheet ([Raspberry Pi Pico W Datasheet](https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf#page=15)). Refer to sections 3.4 and 3.5 of the datasheet for details. This allows a computer connected via VBUS at the same time the board is powred by +BATT (or the J11 external source).
 - VBUS - The USB OTG's power pin. Note that J6 is provided (and needs to have a jumper installed)  in order to source VBUS from the board's +5V supply when the USB OTG interface is being used in HOST mode.
 
@@ -547,6 +548,11 @@ There are two main interfaces for controlling motors and servos.
 
 The PWM/Servo interface uses the first 8 channels of a PCA9685 PWM generator
 (I2C bus 0, I2C address 0x0).
+
+If using the PWM/Servo interface for servo control, connect the J12 connector
+(supplying SERVO_VDD) to an external power supply. This is not needed if the
+PWM/Servo interface is being used to connect to external motor controllers
+from REV, CTRE, etc.
 
 <table>
   <tr style="background-color:#404040">
