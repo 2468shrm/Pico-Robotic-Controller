@@ -1,5 +1,7 @@
 # Pico-Robotic-Controller
-A carrier board for a Raspberry Pi Pico (W) for use in FRC robotics. Similar to the XRP board.
+
+A carrier board for a Raspberry Pi Pico (W) for use in FRC robotics. Similar
+to the XRP board.
 
 ## Introduction (Motivation)
 
@@ -69,11 +71,21 @@ The XRP board has some significant philospohical and design choices and features
 - Has a gyro and accelerometer integrated on the PCB
 - The connectors are six-position JST (vertical) that integrates digital I/Os for encoders in addition to the M+ and M- motor signals (i.e. not a sensor standard like Qwiic or STEMMA QT)
 
-The PRC does not include any motor controllers on the board. However, it does provide a 2x5 pin connector and a dedicated PWM generator (I2C bus 0, address 0x1). The intent is to provide a board with 4 12V, 3.3 A motor controllers using a separate/dedicated battery input. Providing the capability to drive four H-Bridges allows for demonstration chassis (skid steer or Meccanum). This allows replaceable solutions as well as future upgrades for higher current. Moreover, the PWM / Servo connections allow for use of a conventional FRC PWM-controlled motor controller.
+The PRC does not include any motor controllers on the board. However, it
+does provide a 2x5 pin connector and a dedicated PWM generator (I2C bus 0,
+address 0x1). The intent is to provide a board with 4 12V, 3.3 A motor
+controllers using a separate/dedicated battery input. Providing the capability
+to drive four H-Bridges allows for demonstration chassis (skid steer or
+Meccanum). This allows replaceable solutions as well as future upgrades for
+higher current. Moreover, the PWM / Servo connections allow for use of
+a conventional FRC PWM-controlled motor controller.
 
-The PRC provides four STEMMA QT / Qwiic connectors in lieu of a specific set of sensors (IMU). This allows out use of different sensors dependent on the application.
+The PRC provides four STEMMA QT / Qwiic connectors in lieu of a specific set
+of sensors (IMU). This allows out use of different sensors dependent on
+the application.
 
-The PRC also has CAN and Ethernet connectivity in addition to the WiFi and BlueTooth provided by the Pice W board.
+The PRC also has CAN and Ethernet connectivity in addition to the WiFi and
+BlueTooth provided by the Pice W board.
 
 Differences between the roboRIO, XPR, and PRC boards.
 <table>
@@ -418,7 +430,8 @@ The PRC is intended to serve as a low-cost roboRIO.  To that end it includes
 computation and communication at the heart of the system.
 
 #### Pi Pico W
-The PRC includes a socket to install a Raspberry Pi Pico W board. This is in component designator U2.
+The PRC includes a socket to install a Raspberry Pi Pico W board. This
+is in component designator U2.
 
 #### CAN  
 The PRC includes a socket to install an Adafruit Picowbell board
@@ -445,7 +458,8 @@ analog inputs, and digital I/Os.
 
 #### Qwiic / STEMMA QT
 There are four (4) Qwiic/STEMMA QT connectors. These connectors (X1-X4) connect
-to the Pico W I2C bus 1 via an TCA9546 4-port I2C switch/mux (I2C bus 1 address 0x70).
+to the Pico W I2C bus 1 via an TCA9546 4-port I2C switch/mux (I2C bus 1
+address 0x70).
 
 The Qwiic/STEMMA QT connector provide the two I2C signals (each connector coming
 from one dedicated output of the I2C mux/switch), 3.3V, and GND. This format
@@ -525,10 +539,15 @@ and power in the middle. The power pin voltage is the same voltage pdovided
 to the VCCB of the level shifter.
 
 ### Motor Control
-There are two main interfaces for 
-#### PWM / Servo
+There are two main interfaces for controlling motors and servos.
+1. PWM/Servo interface. Eight (8) conventional PWM/Servo connections.
+1. There is also a dedicated motor control interface to connect to a custom, 4 channel, low-current, motor driver board.
 
-I2C bus 0, I2C address 0x0
+#### PWM/Servo
+
+The PWM/Servo interface uses the first 8 channels of a PCA9685 PWM generator
+(I2C bus 0, I2C address 0x0).
+
 <table>
   <tr style="background-color:#404040">
     <th>Channel</th>
@@ -570,15 +589,21 @@ I2C bus 0, I2C address 0x0
   </tr>
   <tr>
     <td>8-15</td>
-    <td>Unused</td>
+    <td colspan="2">Unused</td>
   </tr>
 </table>
 
 #### Motor Control
 
-In the PWM Generation Channels section (above), four (4) motor channels (M0-M3) are referenced. The top 8 outputs of the PWM generator IC are assigned to a low-current motor control board.  This board is basically four (4) instances of the TI DRV8870 3.5 A motor controller. This board is intended to be used in FIRST Tech Challenge class robots for classroom and learning (not competition) use. 
+The motor control interface uses the first 8 channels of a dedicated PCA9685 PWM
+generator (I2C bus 0, I2C address 0x1).
 
-The DRV8870 has 2 signal inputs per IC (IN1, IN2).  The motor controller operates as follows:
+These connect to the motor controller board and drive four (4) instances of a TI
+DRV8870 3.5 A motor controller. This board is intended to be used in FTC-class
+robots or for classroom and learning (not competition) use. 
+
+The DRV8870 has 2 signal inputs per IC (IN1, IN2).  The motor controller
+operates as follows:
 
 <table>
   <tr style="background-color:#404040">
@@ -618,9 +643,12 @@ The DRV8870 has 2 signal inputs per IC (IN1, IN2).  The motor controller operate
   </tr>
 </table>
 
-Note: When pulse width modulating the IN1 & IN2 to provide speed control of the attached motors, it is important to realize that operating in coast or brake modes is important to consider.
+Note: When pulse width modulating the IN1 & IN2 to provide speed control
+of the attached motors, it is important to realize that operating in coast
+or brake modes is important to consider.
 
-In coast mode, the motor coasts when both IN1 and IN2 are 0. This matches the normal signal polarity of a PWM signal (high represents active).
+In coast mode, the motor coasts when both IN1 and IN2 are 0. This matches
+the normal signal polarity of a PWM signal (high represents active).
 
 <table>
   <tr style="background-color:#404040">
@@ -641,9 +669,16 @@ In coast mode, the motor coasts when both IN1 and IN2 are 0. This matches the no
     <td>PWM'd</td>
   </tr>
 </table>
-The PWM will drive the motor fur the duration of the high time of the duty cycle and coast through the low time.
 
-In brake mode, the motor breaks when both IN1 and IN2 are 1. This is opposite the normal signal polarity of a PWM signal, so the signal generation needs to be inverted and the low-time needs to represent the desired fraction of the output. Also, the PWM'd input signal must be swapped so that the correct direction is maintained.
+The PWM will drive the motor fur the duration of the high time of the duty
+cycle and coast through the low time.
+
+In brake mode, the motor breaks when both IN1 and IN2 are 1. This is opposite
+the normal signal polarity of a PWM signal, so the signal generation needs
+to be inverted and the low-time needs to represent the desired fraction of
+the output. Also, the PWM'd input signal must be swapped so that the
+correct direction is maintained.
+
 <table>
   <tr style="background-color:#404040">
     <th>Mode</th>
@@ -713,7 +748,7 @@ I2C bus 0, address 0x1
   </tr>
   <tr>
     <td>8-15</td>
-    <td>Unused</td>
+    <td colspan="2">Unused</td>
   </tr>
 </table>
 
