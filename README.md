@@ -3,6 +3,11 @@
 A carrier board for a Raspberry Pi Pico (W) for use in FRC robotics. Similar
 to the XRP board.
 
+## Disclaimer / Warning
+
+This is an experimental device. Not all interfaces have been fully validated
+for proper function. Use at your own risk.
+
 ## Introduction (Motivation)
 
 You may assume that this board is indended to compete with the XRP product
