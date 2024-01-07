@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,(6.0.8-1)-1*%
-%TF.CreationDate,2024-01-05T11:23:30-06:00*%
+%TF.CreationDate,2024-01-06T20:05:09-06:00*%
 %TF.ProjectId,Pico Robotic Controller,5069636f-2052-46f6-926f-74696320436f,V2*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Copper,L4,Bot*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (6.0.8-1)-1) date 2024-01-05 11:23:30*
+G04 Created by KiCad (PCBNEW (6.0.8-1)-1) date 2024-01-06 20:05:09*
 %MOMM*%
 %LPD*%
 G01*
@@ -731,7 +731,6 @@ X173653000Y-112556300D03*
 X180975000Y-132816600D03*
 X168148000Y-148691600D03*
 X114350800Y-143865600D03*
-X160426400Y-119786400D03*
 X173653000Y-117636300D03*
 X167995600Y-132689600D03*
 X181330600Y-76708000D03*

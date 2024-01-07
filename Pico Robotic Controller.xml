@@ -878,7 +878,7 @@
     </comp>
     <comp ref="J1">
       <value>250-202</value>
-      <footprint>250202</footprint>
+      <footprint>Appreciate:250202</footprint>
       <datasheet>https://www.wago.com/gb/pcb-terminal-blocks-and-pluggable-connectors/1-conductor-pcb-terminal-strip/p/250-202</datasheet>
       <fields>
         <field name="Description">Wago 250 Series, Female 2 Pole 2 Way PCB Terminal Strip, PCB Mount</field>
@@ -909,7 +909,7 @@
     </comp>
     <comp ref="J3">
       <value>250-203</value>
-      <footprint>250-203_1</footprint>
+      <footprint>Appreciate:250-203_1</footprint>
       <datasheet>https://componentsearchengine.com/Datasheets/2/250-203.pdf</datasheet>
       <fields>
         <field name="Description">WAGO - 250-203. - TERMINAL BLOCK, WIRE TO BRD, 3POS, 16AWG</field>
@@ -993,7 +993,7 @@
     </comp>
     <comp ref="J11">
       <value>250-202</value>
-      <footprint>250202</footprint>
+      <footprint>Appreciate:250202</footprint>
       <datasheet>https://www.wago.com/gb/pcb-terminal-blocks-and-pluggable-connectors/1-conductor-pcb-terminal-strip/p/250-202</datasheet>
       <fields>
         <field name="Description">Wago 250 Series, Female 2 Pole 2 Way PCB Terminal Strip, PCB Mount</field>
@@ -1015,7 +1015,7 @@
     </comp>
     <comp ref="J12">
       <value>250-202</value>
-      <footprint>250202</footprint>
+      <footprint>Appreciate:250202</footprint>
       <datasheet>https://www.wago.com/gb/pcb-terminal-blocks-and-pluggable-connectors/1-conductor-pcb-terminal-strip/p/250-202</datasheet>
       <fields>
         <field name="Description">Wago 250 Series, Female 2 Pole 2 Way PCB Terminal Strip, PCB Mount</field>
@@ -1385,7 +1385,7 @@
     </comp>
     <comp ref="U5">
       <value>TCA9546</value>
-      <footprint>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</footprint>
+      <footprint>Package_SO:TSSOP-16_4.4x5mm_P0.65mm</footprint>
       <datasheet>https://www.ti.com/lit/ds/symlink/tca9546a.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&amp;ts=1688006167267&amp;ref_url=https%253A%252F%252Fwww.mouser.com%252F</datasheet>
       <fields>
         <field name="LCSC">C201653</field>
@@ -1408,7 +1408,7 @@
     </comp>
     <comp ref="U7">
       <value>TXS0104EPW</value>
-      <footprint>Package_SO:TSSOP-14-1EP_4.4x5mm_P0.65mm</footprint>
+      <footprint>Package_SO:TSSOP-14_4.4x5mm_P0.65mm</footprint>
       <datasheet>https://www.ti.com/lit/ds/symlink/txs0104e.pdf?ts=1703693015299&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTXS0104E</datasheet>
       <fields>
         <field name="LCSC">C44955</field>
@@ -1422,7 +1422,7 @@
     </comp>
     <comp ref="U8">
       <value>TXS0104EPW</value>
-      <footprint>Package_SO:TSSOP-14-1EP_4.4x5mm_P0.65mm</footprint>
+      <footprint>Package_SO:TSSOP-14_4.4x5mm_P0.65mm</footprint>
       <datasheet>https://www.ti.com/lit/ds/symlink/txs0104e.pdf?ts=1703693015299&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTXS0104E</datasheet>
       <fields>
         <field name="LCSC">C44955</field>
@@ -1502,7 +1502,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>be76fe3d-e374-4d2c-8f7e-991a49502386 c98dab9c-a09f-4434-8db1-a021d6ca6a67 6e6bccb9-3a30-4649-8ef1-1dcfebc7d624 a9f83fc0-d629-4d06-8cb2-902dfacc4ab9 6616f5ad-60bb-4b46-99ef-98c88a8a00c4 ef22d63c-d68e-487d-ac2e-ce1dc16fceb4 0bfb39ce-ba33-42a4-926f-8c05e9f78ee6</tstamps>
+      <tstamps>be76fe3d-e374-4d2c-8f7e-991a49502386 c98dab9c-a09f-4434-8db1-a021d6ca6a67 6e6bccb9-3a30-4649-8ef1-1dcfebc7d624 a9f83fc0-d629-4d06-8cb2-902dfacc4ab9 ef22d63c-d68e-487d-ac2e-ce1dc16fceb4 6616f5ad-60bb-4b46-99ef-98c88a8a00c4 0bfb39ce-ba33-42a4-926f-8c05e9f78ee6</tstamps>
     </comp>
     <comp ref="U12">
       <value>74HC14</value>
@@ -1516,7 +1516,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="File: Pico Robotic Controller.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>3ab479d7-c90c-4301-80ab-a01b440bac06 21e25b86-1b18-41c4-8af4-3c141f5ec830 eb13ec54-081f-48c5-a653-3b4fe4528c8d 45252245-abc4-44f0-81b0-8770cb89a465 4ef4c0a4-1f52-4c16-aa7d-8af5b2c19ce1 c64eb141-9995-47c4-944e-d9e8bc35799e 15eccd16-0106-46cd-87bc-217025c821cc</tstamps>
+      <tstamps>c64eb141-9995-47c4-944e-d9e8bc35799e 21e25b86-1b18-41c4-8af4-3c141f5ec830 3ab479d7-c90c-4301-80ab-a01b440bac06 eb13ec54-081f-48c5-a653-3b4fe4528c8d 45252245-abc4-44f0-81b0-8770cb89a465 4ef4c0a4-1f52-4c16-aa7d-8af5b2c19ce1 15eccd16-0106-46cd-87bc-217025c821cc</tstamps>
     </comp>
     <comp ref="U13">
       <value>PCA9685PW</value>
@@ -2265,7 +2265,9 @@
       <node ref="J13" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
       <node ref="R4" pin="2" pintype="passive"/>
       <node ref="R5" pin="2" pintype="passive"/>
       <node ref="R6" pin="2" pintype="passive"/>
@@ -2702,8 +2704,6 @@
       <node ref="J8" pin="3" pinfunction="G1" pintype="power_out"/>
       <node ref="J8" pin="6" pinfunction="G2" pintype="power_out"/>
       <node ref="J8" pin="9" pinfunction="G3" pintype="power_out"/>
-      <node ref="R18" pin="1" pintype="passive"/>
-      <node ref="R3" pin="1" pintype="passive"/>
       <node ref="R7" pin="1" pintype="passive"/>
       <node ref="R9" pin="1" pintype="passive"/>
       <node ref="S1" pin="3" pinfunction="COM_1" pintype="passive"/>
